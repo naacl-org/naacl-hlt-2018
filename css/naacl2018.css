@@ -119,6 +119,11 @@ span.label {
 li.nav-item.active {
     border-bottom: 2px solid #eee;
 }
+#navigator {
+    background-color: #fff;
+    text-align: center;
+    min-height: 60px;
+}
 
 /* Index */
 
