@@ -10,13 +10,75 @@ h2, h3 {
     font-weight: 400;
     color: #555555;
 }
+/* TODO: improve <a> style */
 a {
     color: #66bbc5;
 }
 mark {
     background-color: rgba(102, 187, 197, .2);
 }
-/* Header */
+code {
+    color: inherit;
+}
+ul.text-list {
+    padding-left: 5px;
+    list-style-type: none;
+}
+ul.text-list > li {
+    /*border-left: 3px solid #6abcc8;*/
+    /*margin-bottom: 5px;*/
+    /*padding-left: 10px;*/
+}
+ul.text-list > li::before {
+    content: '–';
+    margin-right: 5px;
+    font-weight: 900;
+    /*color: #6abcc8;*/
+}
+.alert {
+    border-radius: 0;
+    border-left: 4px solid #6abcc8;
+    background-color: #f5f5f5;
+    transition: .1s background-color ease-in-out;
+}
+.alert:hover {
+    background-color: #eee;
+}
+.alert > a {
+    font-weight: bold;
+    /*color: #66bbc5;*/
+}
+blockquote.blockquote {
+    font-size: 14px;
+}
+span.label {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 1px 4px;
+    color: #3191a5;
+    background-color: rgba(102, 187, 197, .2);
+}
+.panel {
+    border: 1px solid rgba(85, 157, 165, .2);
+    margin-bottom: 10px;
+}
+.panel-title {
+    background-color: rgba(85, 157, 165, .2);
+}
+.panel-title > span.label {
+    background-color: #3191a5;
+    color: #fff;
+    border-radius: 4px;
+}
+.panel-title {
+    color: #3191a5;
+    padding: 10px;
+    font-weight: bold;
+}
+.panel-body {
+    padding: 12px;
+}
+    /* Header */
 /* _includes/header.html */
 #header {
     position: relative;
@@ -51,6 +113,7 @@ mark {
     margin-bottom: 40px;
 }
 .navbar-nav > li {
+    border-bottom: 2px solid transparent;
     margin-right: 20px;
 }
 li.nav-item.active {
@@ -58,19 +121,7 @@ li.nav-item.active {
 }
 
 /* Index */
-.alert {
-    border-radius: 0;
-    border-left: 4px solid #6abcc8;
-    background-color: #f5f5f5;
-    transition: .1s background-color ease-in-out;
-}
-.alert:hover {
-    background-color: #eee;
-}
-.alert > a {
-    font-weight: bold;
-    /*color: #66bbc5;*/
-}
+
 /* Importance Dates */
 #date-table-wrapper {
     border: 1px solid #ddd;

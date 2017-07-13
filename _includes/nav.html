@@ -8,27 +8,31 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Welcome</a>
+                <li class="nav-item {% if page.path == '' or page.path == 'index.html' %}active{% endif %}">
+                    <a class="nav-link" href="/">Welcome</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
                         Calls
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Call for Paper</a>
-                        <a class="dropdown-item" href="#">Call for Tutorial</a>
-                        <a class="dropdown-item" href="#">Call for Demonstration</a>
+                        <a class="dropdown-item" href="call_for_paper.html">Call for Paper</a>
+                        <a class="dropdown-item" href="call_for_tutorial.html">Call for Tutorial</a>
+                        <a class="dropdown-item" href="call_for_workshop.html">Call for Demonstration</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PC Blog</a>
+                    <a class="nav-link {% if page.path == 'pc_blog.html' %}active{% endif %}" href="pc_blog.html">PC Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Organization</a>
+                    <a class="nav-link {% if page.path == 'organization.html' %}active{% endif %}" href="organization.html">Organization</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sponsors</a>
+                    <a class="nav-link {% if page.path == 'sponsors.html' %}active{% endif %}" href="sponsors.html">Sponsors</a>
+                </li>
+                <li class="nav-item {% if page.path == 'test.html' %}active{% endif %}">
+                    <a class="nav-link" href="test.html">Test</a>
                 </li>
             </ul>
         </div>
