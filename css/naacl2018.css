@@ -24,16 +24,10 @@ ul.text-list {
     padding-left: 5px;
     list-style-type: none;
 }
-ul.text-list > li {
-    /*border-left: 3px solid #6abcc8;*/
-    /*margin-bottom: 5px;*/
-    /*padding-left: 10px;*/
-}
 ul.text-list > li::before {
     content: '–';
     margin-right: 5px;
     font-weight: 900;
-    /*color: #6abcc8;*/
 }
 .alert {
     border-radius: 0;
@@ -78,7 +72,7 @@ span.label {
 .panel-body {
     padding: 12px;
 }
-    /* Header */
+/* Header */
 /* _includes/header.html */
 #header {
     position: relative;
@@ -90,18 +84,13 @@ span.label {
     background-size: cover;
     background-repeat: no-repeat;
 }
-#header-title {
-    max-width: 450px;
-}
 #header-skyline {
     position: absolute;
     right: 5px;
     bottom: -1px;
-    /*opacity: .9;*/
 }
 #header-desc {
     margin-top: 20px;
-    /*left: 20px;*/
     font-size: 15px;
     color: #d5efce;
     text-align: center;
@@ -113,11 +102,7 @@ span.label {
     margin-bottom: 40px;
 }
 .navbar-nav > li {
-    border-bottom: 2px solid transparent;
     margin-right: 20px;
-}
-li.nav-item.active {
-    border-bottom: 2px solid #eee;
 }
 #navigator {
     background-color: #fff;
