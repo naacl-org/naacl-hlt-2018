@@ -1,5 +1,20 @@
+---
+---
 * {
     box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+}
+h2, h3 {
+    font-weight: 400;
+    color: #555555;
+}
+a {
+    color: #66bbc5;
+}
+mark {
+    background-color: rgba(102, 187, 197, .2);
 }
 /* Header */
 /* _includes/header.html */
@@ -9,7 +24,7 @@
     height: 250px;
     width: 100%;
     background-color: #000;
-    background-image: url(../images/header_background_orange.svg);
+    background-image: url(../images/header_background_blue.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,11 +35,60 @@
     position: absolute;
     right: 5px;
     bottom: -1px;
-    opacity: .9;
+    /*opacity: .9;*/
 }
 #header-desc {
     margin-top: 20px;
     /*left: 20px;*/
-    color: #e94e00;
+    font-size: 15px;
+    color: #d5efce;
     text-align: center;
+}
+
+/* Navigator*/
+.navbar {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.navbar-nav > li {
+    margin-right: 20px;
+}
+li.nav-item.active {
+    border-bottom: 2px solid #eee;
+}
+
+/* Index */
+.alert {
+    border-radius: 0;
+    border-left: 4px solid #6abcc8;
+    background-color: #f5f5f5;
+    transition: .1s background-color ease-in-out;
+}
+.alert:hover {
+    background-color: #eee;
+}
+.alert > a {
+    font-weight: bold;
+    /*color: #66bbc5;*/
+}
+/* Importance Dates */
+#date-table-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    padding: 10px;
+    background-color: #fff;
+}
+/* Footer */
+#footer {
+    background-color: #eee;
+    color: #888;
+    margin: 0;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+}
+#footer-acl-logo {
+    height: 13px;
+    margin-right: 5px;
 }
