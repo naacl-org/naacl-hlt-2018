@@ -6,10 +6,25 @@
 #header {
     position: relative;
     padding-top: 50px;
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color: #000;
+    background-image: url(../images/header_background_orange.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #header-title {
-    max-width: 350px;
+    max-width: 450px;
+}
+#header-skyline {
+    position: absolute;
+    right: 5px;
+    bottom: -1px;
+    opacity: .9;
+}
+#header-desc {
+    margin-top: 20px;
+    /*left: 20px;*/
+    color: #e94e00;
+    text-align: center;
 }
