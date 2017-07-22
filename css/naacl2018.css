@@ -10,6 +10,12 @@ h2, h3 {
     font-weight: 400;
     color: #555555;
 }
+h2 {
+    margin-top: 20px;
+}
+h3 {
+    margin-top: 10px;
+}
 /* TODO: improve <a> style */
 a {
     color: #66bbc5;
@@ -26,7 +32,7 @@ ul.text-list {
 }
 ul.text-list > li::before {
     content: '–';
-    margin-right: 5px;
+    margin-right: 10px;
     font-weight: 900;
 }
 .alert {
@@ -52,9 +58,30 @@ span.label {
     color: #3191a5;
     background-color: rgba(102, 187, 197, .2);
 }
+span.scratch {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    transition: 2s all ease-in-out;
+}
+span.scratch.scratched,
+span.scratch:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+#main {
+    margin-bottom: 20px;
+}
 .panel {
+    border-radius: 5px;
     border: 1px solid rgba(85, 157, 165, .2);
     margin-bottom: 10px;
+    overflow: hidden;
 }
 .panel-title {
     background-color: rgba(85, 157, 165, .2);
@@ -69,8 +96,15 @@ span.label {
     padding: 10px;
     font-weight: bold;
 }
+.panel-desc {
+    font-size: 12px;
+    font-weight: normal;
+}
 .panel-body {
     padding: 12px;
+}
+.panel * p {
+    margin-bottom: 0;
 }
 /* Header */
 /* _includes/header.html */

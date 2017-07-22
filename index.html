@@ -7,7 +7,7 @@
 </head>
 <body>
 {% include header.html %}
-<div class="container">
+<div id="main" class="container">
     <div class="row">
         <div class="col-12">
             {% include nav.html %}
@@ -15,49 +15,22 @@
     </div>
     <div class="row">
         <div class="col-md-8">
-            <p>The 15th Annual Conference of the North American Chapter of the Association for Computational
-                Linguistics: Human Language Technologies will be held in San Diego, California, June 12 to June 17,
-                2016 at the Sheraton San Diego Hotel & Marina.
-            <div class="row">
-                <div class="col-sm-12">
-                    <h3>News</h3>
-                    <div class="alert"><a href="#">Main Conference Proceedings are now online</a>. We recommend downloading the
-                        proceedings before you arrive to the conference.</div>
-                    <div class="alert">Information for Presenters. See long and short talk time lengths and poster dimensions.</div>
-                    <div class="alert">Best reviewers. Thank you to all our reviewers. See this year's list of best
-                        reviewers recognized by area chairs.</div>
-                </div>
-            </div>
+            <p>The 16th Annual Conference of the North American Chapter of the Association for Computational
+                Linguistics: Human Language Technologies will be held in <span class="scratch">a super fun U.S. City</span>, June 1 to June 16,
+                2018 at <span class="scratch">top secret location that will be revealed at ACL</span>.
+            <!--<div class="row">-->
+                <!--<div class="col-sm-12">-->
+                    <!--<h3>News</h3>-->
+                    <!--<div class="alert"><a href="#">Main Conference Proceedings are now online</a>. We recommend downloading the-->
+                        <!--proceedings before you arrive to the conference.</div>-->
+                    <!--<div class="alert">Information for Presenters. See long and short talk time lengths and poster dimensions.</div>-->
+                    <!--<div class="alert">Best reviewers. Thank you to all our reviewers. See this year's list of best-->
+                        <!--reviewers recognized by area chairs.</div>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
         <div class="col-md-4">
-            <div id="date-table-wrapper">
-                <h3>Important Dates</h3>
-                <br/>
-                <table id="important-dates" class="table table-condensed">
-                    <tr><td>Submission Deadline<br><em>Long &amp; Short Papers</em></td>
-                        <td>January 6, 2016</td>
-                    </tr>
-                    <tr><td>Author Response Period</td>
-                        <td>February 10&ndash;15, 2016</td>
-                    </tr>
-                    <tr><td>Author Notification</td>
-                        <td>March 2, 2016</td>
-                    </tr>
-                    <tr><td><a href="http://naacl.org/naacl-pubs/">Camera-Ready Deadline</a></td>
-                        <td>April 1, 2016</td>
-                    </tr>
-                    <tr><td>Tutorials</td>
-                        <td>June 12, 2016</td>
-                    </tr>
-                    <tr><td>Main Conference</td>
-                        <td>June 13&ndash;15, 2016</td>
-                    </tr>
-                    <tr><td>Workshops</td>
-                        <td>June 16&ndash;17, 2016</td>
-                    </tr>
-                </table>
-                <p><small>* <em>All deadlines are <mark>11:59PM GMT -12</mark> (anywhere in the world).</em></small></p>
-            </div>
+            {% include important_dates.html %}
         </div>
     </div>
 </div>
