@@ -1,0 +1,169 @@
+---
+---
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+}
+h2, h3 {
+    font-weight: 400;
+    color: #555555;
+}
+h2 {
+    margin-top: 20px;
+}
+h3 {
+    margin-top: 10px;
+}
+/* TODO: improve <a> style */
+a {
+    color: #66bbc5;
+}
+mark {
+    background-color: rgba(102, 187, 197, .2);
+}
+code {
+    color: inherit;
+}
+ul.text-list {
+    padding-left: 5px;
+    list-style-type: none;
+}
+ul.text-list > li::before {
+    content: '–';
+    margin-right: 10px;
+    font-weight: 900;
+}
+.alert {
+    border-radius: 0;
+    border-left: 4px solid #6abcc8;
+    background-color: #f5f5f5;
+    transition: .1s background-color ease-in-out;
+}
+.alert:hover {
+    background-color: #eee;
+}
+.alert > a {
+    font-weight: bold;
+    /*color: #66bbc5;*/
+}
+blockquote.blockquote {
+    font-size: 14px;
+}
+span.label {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 1px 4px;
+    color: #3191a5;
+    background-color: rgba(102, 187, 197, .2);
+}
+span.scratch {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    transition: 2s all ease-in-out;
+}
+span.scratch.scratched,
+span.scratch:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+#main {
+    margin-bottom: 20px;
+}
+.panel {
+    border-radius: 5px;
+    border: 1px solid rgba(85, 157, 165, .2);
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.panel-title {
+    background-color: rgba(85, 157, 165, .2);
+}
+.panel-title > span.label {
+    background-color: #3191a5;
+    color: #fff;
+    border-radius: 4px;
+}
+.panel-title {
+    color: #3191a5;
+    padding: 10px;
+    font-weight: bold;
+}
+.panel-desc {
+    font-size: 12px;
+    font-weight: normal;
+}
+.panel-body {
+    padding: 12px;
+}
+.panel * p {
+    margin-bottom: 0;
+}
+/* Header */
+/* _includes/header.html */
+#header {
+    position: relative;
+    padding-top: 50px;
+    height: 250px;
+    width: 100%;
+    background-color: #000;
+    background-image: url(../images/header_background_blue.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header-skyline {
+    position: absolute;
+    right: 5px;
+    bottom: -1px;
+}
+#header-desc {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #d5efce;
+    text-align: center;
+}
+
+/* Navigator*/
+.navbar {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.navbar-nav > li {
+    margin-right: 20px;
+}
+#navigator {
+    background-color: #fff;
+    text-align: center;
+    min-height: 60px;
+}
+
+/* Index */
+
+/* Importance Dates */
+#date-table-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    padding: 10px;
+    background-color: #fff;
+}
+/* Footer */
+#footer {
+    background-color: #eee;
+    color: #888;
+    margin: 0;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+}
+#footer-acl-logo {
+    height: 13px;
+    margin-right: 5px;
+}

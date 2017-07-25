@@ -1,8 +1,30 @@
-<HTML>
-<HEAD>
-<TITLE>NAACL HLT 2018</TITLE>
-</HEAD>
-<BODY>
-<CENTER>Placeholder for NAACL 2018 website while we finalize the conference details and organizing committee.</CENTER>
-</BODY>
-</HTML>
+---
+---
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<div id="main" class="container">
+    <div class="row">
+        <div class="col-12">
+            {% include nav.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <p>The 16th Annual Conference of the North American Chapter of the Association for Computational
+                Linguistics: Human Language Technologies will be held in <span class="scratch">a super fun U.S. City</span>, June 1 to June 6,
+                2018 at <span class="scratch">top secret location that will be revealed at ACL</span>.
+            <p style="text-align: center;"><img class="img-fluid" src="images/hint1.png"/></p>
+        </div>
+        <div class="col-md-4">
+            {% include important_dates.html %}
+        </div>
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>
