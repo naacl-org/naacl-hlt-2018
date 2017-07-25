@@ -1,39 +1,29 @@
-<!--<div class="container">-->
-    <nav id="navigator" class="navbar navbar-toggleable-sm navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--<a class="navbar-brand" href="#">NAACL HLT</a>-->
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item {% if page.path == '' or page.path == 'index.html' %}active{% endif %}">
-                    <a class="nav-link" href="/">Welcome</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                        Calls
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="call_for_paper.html">Call for Paper</a>
-                        <a class="dropdown-item" href="call_for_tutorial.html">Call for Tutorial</a>
-                        <a class="dropdown-item" href="call_for_demo.html">Call for Demonstration</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.path == 'pc_blog.html' %}active{% endif %}" href="pc_blog.html">PC Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if page.path == 'organization.html' %}active{% endif %}" href="organization.html">Organization</a>
-                </li>
-                <!--<li class="nav-item">-->
-                    <!--<a class="nav-link {% if page.path == 'sponsors.html' %}active{% endif %}" href="sponsors.html">Sponsors</a>-->
-                <!--</li>-->
-                <!--<li class="nav-item {% if page.path == 'test.html' %}active{% endif %}">-->
-                    <!--<a class="nav-link" href="test.html">Test</a>-->
-                <!--</li>-->
-            </ul>
-        </div>
-    </nav>
-<!--</div>-->
+<nav id="navigator" class="navbar navbar-toggleable-sm navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item {% if page.path == '' or page.path == 'index.html' %}active{% endif %}">
+                <a class="nav-link" href="/">Welcome</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Calls
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="call_for_paper.html">Call for Paper</a>
+                    <a class="dropdown-item" href="call_for_tutorial.html">Call for Tutorial</a>
+                    <a class="dropdown-item" href="call_for_demo.html">Call for Demonstration</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if page.path == 'pc_blog.html' %}active{% endif %}" href="pc_blog.html">PC Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if page.path == 'organization.html' %}active{% endif %}" href="organization.html">Organization</a>
+            </li>
+        </ul>
+    </div>
+</nav>
