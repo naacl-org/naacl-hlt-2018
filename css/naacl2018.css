@@ -18,10 +18,12 @@ h3 {
 }
 /* TODO: improve <a> style */
 a {
-    color: #66bbc5;
+    /*color: #66bbc5;*/
+    color: #4ca1c8;
 }
 mark {
-    background-color: rgba(102, 187, 197, .2);
+    /*background-color: rgba(102, 187, 197, .2);*/
+    background-color: rgba(83, 138, 165, 0.2);
 }
 code {
     color: inherit;
@@ -37,7 +39,8 @@ ul.text-list > li::before {
 }
 .alert {
     border-radius: 0;
-    border-left: 4px solid #6abcc8;
+    /*border-left: 4px solid #6abcc8;*/
+    border-left: 4px solid #5da4c8;
     background-color: #f5f5f5;
     transition: .1s background-color ease-in-out;
 }
@@ -55,8 +58,8 @@ span.label {
     display: inline-block;
     border-radius: 3px;
     padding: 1px 4px;
-    color: #3191a5;
-    background-color: rgba(102, 187, 197, .2);
+    color: #2085b5;
+    background-color: rgba(83, 138, 165, 0.2);
 }
 span.scratch {
     -webkit-filter: blur(5px);
@@ -79,20 +82,23 @@ span.scratch:hover {
 }
 .panel {
     border-radius: 5px;
-    border: 1px solid rgba(85, 157, 165, .2);
+    /*border: 1px solid rgba(85, 157, 165, .2);*/
+    border: 1px solid rgba(83, 138, 165, 0.2);
     margin-bottom: 10px;
     overflow: hidden;
 }
 .panel-title {
-    background-color: rgba(85, 157, 165, .2);
+    background-color: rgba(83, 138, 165, 0.2);
 }
 .panel-title > span.label {
-    background-color: #3191a5;
+    /*background-color: #3191a5;*/
+    background-color: #2085b5;
     color: #fff;
     border-radius: 4px;
 }
 .panel-title {
-    color: #3191a5;
+    /*color: #3191a5;*/
+    color: #2085b5;
     padding: 10px;
     font-weight: bold;
 }
@@ -110,12 +116,13 @@ span.scratch:hover {
 /* _includes/header.html */
 #header {
     position: relative;
-    padding-top: 50px;
+    padding-top: 20px;
     height: 250px;
     width: 100%;
     background-color: #000;
-    background-image: url(../images/header_background_blue.svg);
+    background-image: url(../images/new_orleans.jpg);
     background-size: cover;
+    background-position-y: 50%;
     background-repeat: no-repeat;
 }
 #header-skyline {
@@ -127,7 +134,12 @@ span.scratch:hover {
     margin-top: 20px;
     font-size: 15px;
     color: #d5efce;
-    text-align: center;
+    /*text-align: center;*/
+}
+#header-title {
+    padding: 20px;
+    /*border-radius: 8px;*/
+    background-color: rgba(0,0,0,.3);
 }
 
 /* Navigator*/
