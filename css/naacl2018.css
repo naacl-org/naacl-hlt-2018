@@ -19,7 +19,7 @@ h3 {
 /* TODO: improve <a> style */
 a {
     /*color: #66bbc5;*/
-    color: #4ca1c8;
+    color: #487ba7;
 }
 mark {
     /*background-color: rgba(102, 187, 197, .2);*/
@@ -83,12 +83,12 @@ span.scratch:hover {
 .panel {
     border-radius: 5px;
     /*border: 1px solid rgba(85, 157, 165, .2);*/
-    border: 1px solid rgba(83, 138, 165, 0.2);
+    border: 1px solid rgba(77, 129, 165, 0.2);
     margin-bottom: 10px;
     overflow: hidden;
 }
 .panel-title {
-    background-color: rgba(83, 138, 165, 0.2);
+    background-color: rgba(141, 173, 222, 0.2)
 }
 .panel-title > span.label {
     /*background-color: #3191a5;*/
@@ -98,7 +98,7 @@ span.scratch:hover {
 }
 .panel-title {
     /*color: #3191a5;*/
-    color: #2085b5;
+    color: #487ba7;
     padding: 10px;
     font-weight: bold;
 }
