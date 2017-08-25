@@ -40,7 +40,7 @@ ul.text-list > li::before {
 .alert {
     border-radius: 0;
     /*border-left: 4px solid #6abcc8;*/
-    border-left: 4px solid #5da4c8;
+    border-left: 4px solid #2085b5;
     background-color: #f5f5f5;
     transition: .1s background-color ease-in-out;
 }
@@ -81,7 +81,7 @@ span.scratch:hover {
     margin-bottom: 20px;
 }
 .panel {
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     /*border: 1px solid rgba(85, 157, 165, .2);*/
     border: 1px solid rgba(77, 129, 165, 0.2);
     margin-bottom: 10px;
