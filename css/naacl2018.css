@@ -122,7 +122,7 @@ span.scratch:hover {
     background-color: #000;
     background-image: url(../images/banner_background.jpg);
     background-size: cover;
-    background-position-y: 70%;
+    background-position-y: 90%;
     background-repeat: no-repeat;
 }
 #header-skyline {
@@ -142,10 +142,10 @@ span.scratch:hover {
     /*background-position: 0 0, 4px 4px;*/
     background: transparent repeating-linear-gradient(
             55deg,
-            rgba(255, 255, 255, .25),
-            rgba(255, 255, 255, .25) 1px,
+            rgba(255, 255, 255, .2),
+            rgba(255, 255, 255, .2) 1px,
             transparent 1px,
-            transparent 3px
+            transparent 4px
     );
 }
 #header-desc {
@@ -157,7 +157,7 @@ span.scratch:hover {
 #header-title {
     padding: 20px;
     /*border-radius: 8px;*/
-    /*background-color: rgba(0,0,0,.3);*/
+    background-color: rgba(0,0,0,.4);
 }
 
 /* Navigator*/
