@@ -115,7 +115,7 @@ span.scratch:hover {
 /* _includes/header.html */
 #header {
     position: relative;
-    padding-top: 20px;
+    padding-top: 40px;
     height: 250px;
     width: 100%;
     background-color: #000;
@@ -141,8 +141,8 @@ span.scratch:hover {
     /*background-position: 0 0, 4px 4px;*/
     background: transparent repeating-linear-gradient(
             55deg,
-            rgba(255, 255, 255, .2),
-            rgba(255, 255, 255, .2) 1px,
+            rgba(255, 255, 255, .1),
+            rgba(255, 255, 255, .1) 1px,
             transparent 1px,
             transparent 4px
     );
@@ -154,10 +154,10 @@ span.scratch:hover {
     /*text-align: center;*/
 }
 #header-title {
-    padding: 30px;
+    padding: 20px;
     /*border-radius: 8px;*/
-    /*background-color: rgba(0,0,0,.4);*/
-    border: 4px solid rgba(255,255,255,.8);
+    background-color: rgba(0,0,0,.25);
+    border: 3px solid rgba(255,255,255,.8);
 }
 
 /* Navigator*/
