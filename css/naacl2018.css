@@ -16,14 +16,12 @@ h2 {
 h3 {
     margin-top: 10px;
 }
-/* TODO: improve <a> style */
 a {
-    /*color: #66bbc5;*/
-    color: #487ba7;
+    color: #b2b962;
 }
 mark {
     /*background-color: rgba(102, 187, 197, .2);*/
-    background-color: rgba(83, 138, 165, 0.2);
+    background-color: #eee;
 }
 code {
     color: inherit;
@@ -40,7 +38,7 @@ ul.text-list > li::before {
 .alert {
     border-radius: 0;
     /*border-left: 4px solid #6abcc8;*/
-    border-left: 4px solid #2085b5;
+    border-left: 4px solid #dddddd;
     background-color: #f5f5f5;
     transition: .1s background-color ease-in-out;
 }
@@ -58,8 +56,8 @@ span.label {
     display: inline-block;
     border-radius: 3px;
     padding: 1px 4px;
-    color: #2085b5;
-    background-color: rgba(83, 138, 165, 0.2);
+    color: #666666;
+    background-color: rgba(238, 238, 238, 0.2);
 }
 span.scratch {
     -webkit-filter: blur(5px);
@@ -83,22 +81,23 @@ span.scratch:hover {
 .panel {
     /*border-radius: 5px;*/
     /*border: 1px solid rgba(85, 157, 165, .2);*/
-    border: 1px solid rgba(77, 129, 165, 0.2);
+    border: 1px solid #eee;
     margin-bottom: 10px;
     overflow: hidden;
 }
 .panel-title {
-    background-color: rgba(141, 173, 222, 0.2)
+    /*background-color: rgba(141, 173, 222, 0.2);*/
+    background-color: rgba(185, 185, 185, 0.14)
 }
 .panel-title > span.label {
     /*background-color: #3191a5;*/
-    background-color: #2085b5;
+    background-color: #999999;
     color: #fff;
     border-radius: 4px;
 }
 .panel-title {
     /*color: #3191a5;*/
-    color: #487ba7;
+    color: #444;
     padding: 10px;
     font-weight: bold;
 }
@@ -155,9 +154,10 @@ span.scratch:hover {
     /*text-align: center;*/
 }
 #header-title {
-    padding: 20px;
+    padding: 30px;
     /*border-radius: 8px;*/
-    background-color: rgba(0,0,0,.4);
+    /*background-color: rgba(0,0,0,.4);*/
+    border: 4px solid rgba(255,255,255,.8);
 }
 
 /* Navigator*/
