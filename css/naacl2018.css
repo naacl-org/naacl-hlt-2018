@@ -16,7 +16,7 @@ h2 {
 h3 {
     margin-top: 10px;
 }
-a {
+a, a:hover, a:active, a:visited {
     color: #b2b962;
 }
 mark {
