@@ -1,0 +1,144 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<div id="main" class="container">
+    <div class="row">
+        <div class="col-12">
+            {% include nav.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 push-md-8">
+            <style>
+                ul.nav-list {
+                    padding: 0;
+                    list-style: none;
+                }
+                ul.nav-list > li {
+                    padding: 5px 8px;
+                    border-left: 3px solid transparent;
+                    margin-bottom: 5px;
+                    font-size: 13px;
+                    font-weight: 500;
+                    background-color: #f5f5f5;
+                    cursor: pointer;
+                }
+                ul.nav-list > li.current,
+                ul.nav-list > li:hover {
+                    border-left: 3px solid #b2b962;
+                    background-color: #f1f1f1;
+                }
+                ul.nav-list > li[disabled],
+                ul.nav-list > li[disabled]:hover {
+                    color: #aaa;
+                    border-left: 3px solid transparent;
+                    background-color: #f5f5f5;
+                    cursor: default;
+                }
+            </style>
+            <ul class="nav-list">
+                <li class="current">Call for Papers</li>
+                <li disabled>Accepted Papers</li>
+                <li disabled>Mentoring</li>
+                <li disabled>Program</li>
+                <li>Travel and Grants</li>
+            </ul>
+
+            <div id="date-table-wrapper">
+                <h3>Important Dates</h3>
+                <br/>
+                <table id="important-dates" class="table table-condensed">
+                    <tr><td>Paper Submission Deadline</td>
+                        <td>March 21, 2016</td>
+                    </tr>
+                    <tr><td>Acceptance Notification</td>
+                        <td> April 11, 2016</td>
+                    </tr>
+                </table>
+                <p><small>* <em>All deadlines are <mark>11:59PM Pacific Standard Time (GMT-8)</mark> (anywhere in the world).</em></small></p>
+            </div>
+        </div>
+        <div class="col-md-8 pull-md-4">
+            <h1>NAACL 2016 Student Research Workshop (SRW)</h1>
+            <p>The SRW workshop will be held in conjunction with NAACL HLT 2016 in Diego,
+                California.</p>
+
+            <h2>Call for Papers</h2>
+            <h3>General Invitation for Submission</h3>
+            <p>The Student Research Workshop (SRW) provides a venue for student researchers to
+                present their work in computational linguistics and natural language processing.
+                Students receive feedback from the general conference audience as well as from
+                mentors specifically assigned according to the topic of their work.
+            </p>
+            <p>We invite papers in three different categories:</p>
+            <ul>
+                <li>Thesis Proposals. This category is appropriate for advanced students who have
+                    decided on a thesis topic and wish to get feedback on their proposal and
+                    broader ideas for their continuing work.</li>
+                <li>Research Papers. Papers in this category can describe completed work, or work
+                    in progress with preliminary results. For these papers, the first author must
+                    be a current graduate student.</li>
+                <li>Special undergraduate track. In order to encourage undergraduate research, we
+                    are offering a special track for research papers where the first author is an
+                    undergraduate student.</li>
+            </ul>
+
+            <p>Topics of interest for the SRW are the same as NAACL main conference. See the
+                list of topics at <a href="http://naacl.org/naacl-hlt-2016/cfp.html" target="_blank">http://naacl.org/naacl-hlt-2016/cfp.html</a>.</p>
+
+            <h3>Benefits of participation</h3>
+            <ul>
+                <li>All accepted papers will be presented in the main conference poster session
+                giving students an opportunity to interact with and present their work to a
+                    large and diverse audience, including top researchers in the field.</li>
+                <li>All accepted papers (thesis, research, undergraduate) will be published in
+                    the NAACL 2016 SRW Proceedings.</li>
+                <li>Each participant is also assigned a mentor--an experienced researcher--who
+                    can provide valuable advice.</li>
+            </ul>
+
+            <h3>Submission Requirements</h3>
+            <p>All papers should follow the two-column format of the NAACL HLT 2016 proceedings
+                (available here http://naacl.org/naacl-pubs/). All papers will have a maximum
+                limit of 6 pages for content, with additional pages for references. Papers
+                which do not conform to these specifications will be rejected.</p>
+            <p>Submissions must conform to the specifications of NAACL HLT 2016 call for papers
+                regarding multiple submissions and preparing papers for the double-blind review
+                process.</p>
+            <p>Use the START link below for submission:</p>
+            <p><a href="https://www.softconf.com/naacl2016/NAACL-SRW16/" target="_blank">https://www.softconf.com/naacl2016/NAACL-SRW16/</a> </p>
+
+            <h3>Grants</h3>
+            <p>Grants from the NSF and corporate sponsors will be available to offset some
+                portion of the students' conference registration, travel and accommodation
+                expenses. Further details will be posted soon.</p>
+
+            <h3>Contact Information</h3>
+            <p>The co-chairs of the workshop can be contacted by email at:
+                <a href="mailto:naacl-srw-2016@googlegroups.com">naacl-srw-2016@googlegroups.com</a>. More details will be posted at the conference
+                website: <a href="https://sites.google.com/site/naaclsrw2016/home" target="_blank">https://sites.google.com/site/naaclsrw2016/home</a>.
+            </p>
+            <b>Student Chairs:</b>
+            <ul>
+                <li>Jacob Andreas, UC Berkeley</li>
+                <li>Eunsol Choi, University of Washington</li>
+                <li>Angeliki Lazaridou, University of Trento</li>
+            </ul>
+            <b>Faculty Advisors:</b>
+            <ul>
+                <li>Jacob Eisenstein, Georgia Tech</li>
+                <li>Nianwen Xue, Brandeis University</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>
