@@ -19,6 +19,9 @@ h3 {
 a, a:hover, a:active, a:visited {
     color: #b2b962;
 }
+a.dropdown-item {
+    color: #000;
+}
 mark {
     /*background-color: rgba(102, 187, 197, .2);*/
     background-color: #eee;
