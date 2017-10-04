@@ -124,6 +124,40 @@ span.scratch:hover {
 .panel * p {
     margin-bottom: 0;
 }
+span.area-chair {
+    display: inline-block;
+    /*padding: 5px 8px;*/
+    padding-right: 10px;
+    /*border-radius: 3px;*/
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: 60px;
+    font-size: 14px;
+    min-width: 150px;
+    /*background-color: #f5f5f5;*/
+    border-radius: 6px;
+    overflow: hidden;
+}
+span.area-chair-img {
+    display: inline-block;
+    /*border-radius: 5px;*/
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    vertical-align: top;
+}
+span.area-chair-name {
+    display: inline-block;
+    height: 60px;
+    margin-left: 5px;
+    line-height: 30px;
+    vertical-align: top;
+}
+span.area-chair-name > i {
+    font-size: 11px;
+    color: #999;
+}
 /* Header */
 /* _includes/header.html */
 #header {
