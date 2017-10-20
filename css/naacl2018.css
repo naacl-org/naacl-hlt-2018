@@ -158,6 +158,9 @@ span.area-chair-name > i {
     font-size: 11px;
     color: #999;
 }
+hr {
+    border-color: #f2f2f2;
+}
 /* Header */
 /* _includes/header.html */
 #header {
