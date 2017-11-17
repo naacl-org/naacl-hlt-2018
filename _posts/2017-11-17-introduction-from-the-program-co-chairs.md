@@ -2,7 +2,7 @@
 layout: blog
 title:  "Introduction from the Program Co-Chairs"
 date:   2017-11-17 11:11:39
-categories: Chairs Blog
+category: Chairs Blog
 ---
 Introduction from the Program Co-Chairs
 =======================================
