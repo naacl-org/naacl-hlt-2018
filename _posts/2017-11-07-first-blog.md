@@ -2,7 +2,7 @@
 layout: blog
 title:  "NAACL-HLT 2018 Chairs Blog"
 date:   2017-11-07 19:49:00
-categories: Chairs Blog
+category: Chairs Blog
 ---
 NAACL-HLT 2018 Chairs Blog
 ==========================

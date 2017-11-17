@@ -251,3 +251,38 @@ hr {
     height: 13px;
     margin-right: 5px;
 }
+/* Blog */
+ul.post-list {
+    list-style: none;
+    padding: 20px 0;
+}
+ul.post-list > li {
+    border-left: 3px solid #eee;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #fcfcfc;
+    transition: .1s all ease-in-out;
+}
+ul.post-list > li:hover {
+    background-color: #f9f9f9;
+    border-left-color: #b2b962;
+}
+.post-list-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.post-list-date {
+    font-size: 13px;
+    font-style: italic;
+    color: #888;
+}
+.post-list-category {
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+    background-color: #eee;
+}
