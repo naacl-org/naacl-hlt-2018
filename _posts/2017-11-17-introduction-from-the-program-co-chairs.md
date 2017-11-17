@@ -12,7 +12,7 @@ We would like to introduce ourselves and our goals for NAACL-HLT 2018.
 Who are we?
 -----------
 
-**Heng Ji** is a Edward P. Hamilton Development Chair Professor of Computer Science at RPI. Her research expertise is on Information Extraction and Knowledge Base Population.
+**Heng Ji** is Edward P. Hamilton Development Chair Professor of Computer Science at RPI. Her research expertise is on Information Extraction and Knowledge Base Population.
 
 **Amanda Stent** is a NLP Architect at Bloomberg LP. Her background is in dialogue, discourse and natural language generation although she currently works on text analytics. She is president emeritus of SIGdial, is on the board of SIGGEN and is on the editorial board of the journal Dialogue and Discourse.
 
