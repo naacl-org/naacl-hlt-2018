@@ -65,7 +65,7 @@ span.new {
 blockquote.blockquote {
     font-size: 14px;
 }
-.page-wrapper * blockquote {
+.page-wrapper > blockquote {
     border-left: 3px solid #eee;
     padding-left: 20px;
 }
