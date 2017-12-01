@@ -61,9 +61,7 @@ track, or if you would like to contribute to the reviewing process,
 please contact us at naacl2018-industrial-track@googlegroups.com. We
 look forward to hearing from you and seeing you in New Orleans!
 
-<div></div>
-
-<div></div>
+<br/>
 
 Srinivas Bangalore (Interactions Labs)
 
