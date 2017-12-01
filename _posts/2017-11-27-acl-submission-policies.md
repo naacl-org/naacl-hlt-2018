@@ -25,7 +25,7 @@ The content of the policies can to a large extent be seen as clarifications of b
 
 For further motivation and discussion of the new policies, I again refer to the [report of the working group](https://www.aclweb.org/adminwiki/images/e/e7/ACL_Guidelines_for_Submission%2C_Review_and_Citation.pdf). Needless to say, the effect of the new policies will have to be monitored and evaluated, and the ACL Exec welcomes feedback on all aspects of our publication and review processes. Meanwhile, we continue to work to facilitate scientific communication without undermining the quality of our review processes. To mention just one example, we are currently engaged in a dialog with the scientific board of arXiv about embargoed authorship, which would allow authors to post preprints that remain anonymous for a limited time period while they are under review, a functionality that currently exists only on some platforms like OpenReview. I hope you will all join us in the work to further improve our models for review and publication.
 
-<p></p>
+<br/>
 
 Joakim Nivre
 
