@@ -10,7 +10,7 @@ New Award: Test-of-Time Paper
 
 **Award**: Test-of-Time Paper on Computational Linguistics
 
-**Goal and Criteria**: We aim to select 1-3 influential and inspiring Computational Linguistics (CL) papers which were published between 2002-2012 at the Association for Computational Linguistics (ACL) conferences (including ACL, NAACL and EACL), workshops and journals (including TACL and CL journal)  during the past 10 years, to recognize research that has had long-lasting influence until today, including positive impact on a subarea of CL, across subareas of CL, and outside of the CL research community. These papers may have proposed new research directions and new technologies, or released results and resources that have greatly benefit the community.
+**Goal and Criteria**: We aim to select 1-3 influential and inspiring Computational Linguistics (CL) papers which were published between 2002-2012 at the Association for Computational Linguistics (ACL) conferences (including ACL, NAACL and EACL), workshops and journals (including TACL and CL journal), to recognize research that has had long-lasting influence until today, including positive impact on a subarea of CL, across subareas of CL, and outside of the CL research community. These papers may have proposed new research directions and new technologies, or released results and resources that have greatly benefit the community.
 
 **By Dec 31, 2017**: The nomination committee will consist of all NAACL-HLT 2018 area chairs. Each area will nominate up to three papers based on joint desisions from all co-chairs, and send the following information to the award committee:
 

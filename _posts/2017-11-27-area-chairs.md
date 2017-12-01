@@ -61,7 +61,7 @@ As part of our goal to ensure broad participation, we have recruited area chairs
 
 * Six of our area chairs were on the senior program committees for one or more of the first four NAACLs: Michael Collins, Eric Fosler-Lussier, Dan Gildea, Dilek Hakkani-Tur, Chin-Yew Lin, Daniel Marcu and Giorgio Satta.
 
-* Eleven of our area chairs are serving on a senior program committee for the first time: Yun-Nung (Vivian) Chen, Hannaneh Hajishirzi, Ozan Irsoy, Junyi (Jessy) Li, Jonathan May, Bonan Min, Vicente Ordonez, Sara Rosenthal, Kristy Hollingshead Seitz, William Yang Wang and Yi Yang.
+* Ten of our area chairs are serving on a senior program committee for the first time: Yun-Nung (Vivian) Chen, Hannaneh Hajishirzi, Ozan Irsoy, Junyi (Jessy) Li, Bonan Min, Vicente Ordonez, Sara Rosenthal, Kristy Hollingshead Seitz, William Yang Wang and Yi Yang.
 
 
 [1] Any errors in the compilation of these statistics are ours; we welcome corrections.
