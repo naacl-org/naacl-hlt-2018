@@ -50,9 +50,9 @@ Make your writing clear to your readers, not just yourself. This takes extra tim
 
 In our next post, we'll share three more (hopefully less obvious) tips on how to make your writing reader-centric.
 
-<div></div>
+<br/>
 
-<div></div>
+<br/>
 
 David Chiang (University of Notre Dame)
 
