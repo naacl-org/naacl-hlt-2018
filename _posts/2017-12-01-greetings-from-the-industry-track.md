@@ -64,7 +64,9 @@ look forward to hearing from you and seeing you in New Orleans!
 <p></p>
 
 Srinivas Bangalore (Interactions Labs)
+
 Jennifer Chu-Carroll (Elemental Cognition)
+
 Yunyao Li (IBM Research - Almaden)
 
 NAACL 2018 Industry Track Co-Chairs
