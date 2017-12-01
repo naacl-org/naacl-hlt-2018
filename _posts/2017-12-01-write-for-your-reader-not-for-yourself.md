@@ -24,7 +24,7 @@ After you’ve revised your paper sufficiently, ask your friends to read it. The
 > 
 > — Stuart Shieber
 
-Good flow often puts things in the opposite order from what you might think. You might think you want to say things in logical order or chronological order, but that is not the order that is most useful to the reader. Murder mysteries reveal the identity of the killer at the end. Cookbooks do not reveal the end product at the end. (“Surprise! It’s a…foie gras tiramisu!”) Rather, they show you a picture of the end product at the beginning. Your papers should be more like cookbooks then murder mysteries.
+Good flow often puts things in the opposite order from what you might think. You might think you want to say things in logical order or chronological order, but that is not the order that is most useful to the reader. Murder mysteries reveal the identity of the killer at the end. Cookbooks do not reveal the end product at the end. (“Surprise! It’s a…foie gras tiramisu!”) Rather, they show you a picture of the end product at the beginning. Your papers should be more like cookbooks than murder mysteries.
 
 * First state the main result in the introduction, and then tell how you reached that result in the rest of the paper.
 * First say what you did, then say how you did it.
