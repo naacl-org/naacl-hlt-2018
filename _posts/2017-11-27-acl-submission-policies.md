@@ -2,7 +2,7 @@
 layout: blog
 title:  "ACL Submission Policies – Whence and Whither?"
 date:   2017-11-27 20:25:49
-category: Chairs Blog
+category: Invited Post
 author: "Joakim Nivre"
 ---
 As NAACL 2018 is the first conference to apply the new [ACL policies for submission](https://www.aclweb.org/adminwiki/index.php?title=ACL_Policies_for_Submission,_Review_and_Citation), review and citation, there are naturally many questions about how and why these policies were put in place. The NAACL Program Chairs have therefore asked me, as President of the ACL, to give a little background on the new policies. In doing this, I will concentrate on describing the process that eventually resulted in the ACL Executive Committee adopting the new policies. For the rationale of the policies themselves, I have little new to add and instead refer to the [report of the working group](https://www.aclweb.org/adminwiki/images/e/e7/ACL_Guidelines_for_Submission%2C_Review_and_Citation.pdf) that drafted the policies.
