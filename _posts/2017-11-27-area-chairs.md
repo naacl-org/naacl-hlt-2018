@@ -3,10 +3,8 @@ layout: blog
 title:  "Area Chairs"
 date:   2017-11-27 22:31:32
 category: Chairs Blog
+author: "Amanda Stent"
 ---
-Area Chairs
-===========
-
 We thank our phenomenal group of Area Chairs for their willingness to serve in this role!
 
 As your submissions come in, they will be assigned to an area chair using a combination of factors:  the area(s) you specify in the submission form, any conflicts of interest with the corresponding area chairs, the match between your submission and the individual area chairs’ interests, and the overall load across chairs in the area.

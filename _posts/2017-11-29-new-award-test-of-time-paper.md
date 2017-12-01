@@ -3,11 +3,8 @@ layout: blog
 title:  "New Award: Test-of-Time Paper"
 date:   2017-11-29 21:12:28
 category: Chairs Blog
+author: "Heng Ji"
 ---
-New Award: Test-of-Time Paper
-=============================
-
-
 **Award**: Test-of-Time Paper on Computational Linguistics
 
 **Goal and Criteria**: We aim to select 1-3 influential and inspiring Computational Linguistics (CL) papers which were published between 2002-2012 at the Association for Computational Linguistics (ACL) conferences (including ACL, NAACL and EACL), workshops and journals (including TACL and CL journal), to recognize research that has had long-lasting influence until today, including positive impact on a subarea of CL, across subareas of CL, and outside of the CL research community. These papers may have proposed new research directions and new technologies, or released results and resources that have greatly benefit the community.

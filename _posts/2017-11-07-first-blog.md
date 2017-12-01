@@ -4,9 +4,6 @@ title:  "NAACL-HLT 2018 Chairs Blog"
 date:   2017-11-07 19:49:00
 category: Chairs Blog
 ---
-NAACL-HLT 2018 Chairs Blog
-==========================
-
 Hi,
 
 Welcome to the NAACL-HLT 2018 Blog! As General Chair, and on behalf of the whole organizing committee, we invite you to participate in NAACL in in New Orleans, where we expect to host the biggest NAACL ever. The program chairs Amanda Stent (Bloomberg) and Heng Ji (RPI) have put together a great program committee with 69 area chairs!  We have been busy getting all the calls out.  Don’t forget, the research papers long paper deadline is December 15th, and the short paper deadline is January 15th.
