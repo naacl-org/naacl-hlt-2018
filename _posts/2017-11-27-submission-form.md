@@ -3,10 +3,8 @@ layout: blog
 title:  "Submission Form"
 date:   2017-11-27 22:20:46
 category: Chairs Blog
+author: "Amanda Stent"
 ---
-Submission Form
-===============
-
 We have a new and more structured submission form for NAACL-HLT 2018. Here we present the new items and explain who will see authors’ responses to them.
 
 Some questions and instructions result from our goal to manage the *integrity and quality of the publication process*.

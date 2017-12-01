@@ -286,3 +286,20 @@ ul.post-list > li:hover {
     color: #666;
     background-color: #eee;
 }
+.post-info {
+    margin-bottom: 30px;
+    color: #b2b962;
+}
+.post-split {
+    margin: 0 10px;
+    color: #aaa;
+}
+.post-author {
+    font-weight: 500;
+    text-transform: uppercase
+;
+    color: #b2b962;
+}
+.post-date {
+    color: #aaa;
+}

@@ -12,6 +12,8 @@
         </div>
     </div>
     <section class="page-wrapper">
+        <h1>{{page.title}}</h1>
+        <div class="post-info">{% if page.author %}By <span class="post-author">{{page.author}}</span><span class="post-split">•</span>{% endif %}<span class="post-date">{{ page.date | date: '%B %d, %Y %H:%M:%S' }}</span></div>
         {{content}}
     </section>
 </div>

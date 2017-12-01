@@ -3,10 +3,8 @@ layout: blog
 title:  "ACL Submission Policies – Whence and Whither?"
 date:   2017-11-27 20:25:49
 category: Chairs Blog
+author: "Joakim Nivre"
 ---
-ACL Submission Policies – Whence and Whither?
-=============================================
-
 As NAACL 2018 is the first conference to apply the new [ACL policies for submission](https://www.aclweb.org/adminwiki/index.php?title=ACL_Policies_for_Submission,_Review_and_Citation), review and citation, there are naturally many questions about how and why these policies were put in place. The NAACL Program Chairs have therefore asked me, as President of the ACL, to give a little background on the new policies. In doing this, I will concentrate on describing the process that eventually resulted in the ACL Executive Committee adopting the new policies. For the rationale of the policies themselves, I have little new to add and instead refer to the [report of the working group](https://www.aclweb.org/adminwiki/images/e/e7/ACL_Guidelines_for_Submission%2C_Review_and_Citation.pdf) that drafted the policies.
 
 Our models of scientific publishing are constantly evolving, and there has been a lot of discussion recently about the increasing impact of preprints and the way this interacts with the double-blind reviewing that has been the norm for conferences and (most) journals in our field. The ACL Exec has been following this discussion for several years – my predecessor Chris Manning highlighted some of the issues in his presidential address in Beijing in 2015 – and during the spring of 2017 it became clear that there was a need to review our policies and guidelines. In discussions on [the ACL 2017 Program Chairs’ blog](https://acl2017.wordpress.com/) and elsewhere, opinions clearly diverged on the pros and cons of preprint publishing and of our current reviewing model, but there seemed to be general agreement that the existing ACL policies and guidelines needed to be at least clarified and possibly revised.

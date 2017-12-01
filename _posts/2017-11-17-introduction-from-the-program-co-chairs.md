@@ -4,9 +4,6 @@ title:  "Introduction from the Program Co-Chairs"
 date:   2017-11-17 11:11:39
 category: Chairs Blog
 ---
-Introduction from the Program Co-Chairs
-=======================================
-
 We would like to introduce ourselves and our goals for NAACL-HLT 2018.
 
 Who are we?
