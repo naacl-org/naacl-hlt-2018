@@ -65,6 +65,18 @@ span.new {
 blockquote.blockquote {
     font-size: 14px;
 }
+.page-wrapper {
+    font-size: 14px;
+}
+.page-wrapper > blockquote {
+    border-left: 3px solid #eee;
+    padding-left: 20px;
+}
+.page-wrapper > h2,
+.page-wrapper > h3 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
 span.label {
     display: inline-block;
     border-radius: 3px;

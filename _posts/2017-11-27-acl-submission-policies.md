@@ -2,7 +2,7 @@
 layout: blog
 title:  "ACL Submission Policies – Whence and Whither?"
 date:   2017-11-27 20:25:49
-category: Chairs Blog
+category: Invited Post
 author: "Joakim Nivre"
 ---
 As NAACL 2018 is the first conference to apply the new [ACL policies for submission](https://www.aclweb.org/adminwiki/index.php?title=ACL_Policies_for_Submission,_Review_and_Citation), review and citation, there are naturally many questions about how and why these policies were put in place. The NAACL Program Chairs have therefore asked me, as President of the ACL, to give a little background on the new policies. In doing this, I will concentrate on describing the process that eventually resulted in the ACL Executive Committee adopting the new policies. For the rationale of the policies themselves, I have little new to add and instead refer to the [report of the working group](https://www.aclweb.org/adminwiki/images/e/e7/ACL_Guidelines_for_Submission%2C_Review_and_Citation.pdf) that drafted the policies.
@@ -25,7 +25,7 @@ The content of the policies can to a large extent be seen as clarifications of b
 
 For further motivation and discussion of the new policies, I again refer to the [report of the working group](https://www.aclweb.org/adminwiki/images/e/e7/ACL_Guidelines_for_Submission%2C_Review_and_Citation.pdf). Needless to say, the effect of the new policies will have to be monitored and evaluated, and the ACL Exec welcomes feedback on all aspects of our publication and review processes. Meanwhile, we continue to work to facilitate scientific communication without undermining the quality of our review processes. To mention just one example, we are currently engaged in a dialog with the scientific board of arXiv about embargoed authorship, which would allow authors to post preprints that remain anonymous for a limited time period while they are under review, a functionality that currently exists only on some platforms like OpenReview. I hope you will all join us in the work to further improve our models for review and publication.
 
-<p></p>
+<br/>
 
 Joakim Nivre
 
