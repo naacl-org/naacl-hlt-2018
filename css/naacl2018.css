@@ -308,10 +308,16 @@ ul.post-list > li:hover {
 }
 .post-author {
     font-weight: 500;
-    text-transform: uppercase
-;
+    text-transform: uppercase;
     color: #b2b962;
 }
 .post-date {
     color: #aaa;
+}
+.address-block {
+    border-left: 3px solid #ddd;
+    padding: 0 10px;
+}
+.address-block > p {
+    margin: 0;
 }

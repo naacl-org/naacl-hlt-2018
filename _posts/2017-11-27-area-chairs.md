@@ -16,9 +16,9 @@ Initial Review
 
 After the submission deadline, your area chair will look over your submission using a checklist that asks:
 
-* Does the content of your submission adhere to the ACL and NAACL-HLT 2018 guidelines for authors? Is it relevant and original? Does it accurately represent contributors and describe research review and data management? Does it reference prior and related work appropriately? Is it anonymized? If there is a preprint or prior publication, did you identify it? The area chair will have access to the information you provided in the submission form as well as to additional tools kindly supplied by START.
+* Does the content of your submission adhere to the ACL and NAACL HLT 2018 guidelines for authors? Is it relevant and original? Does it accurately represent contributors and describe research review and data management? Does it reference prior and related work appropriately? Is it anonymized? If there is a preprint or prior publication, did you identify it? The area chair will have access to the information you provided in the submission form as well as to additional tools kindly supplied by START.
 
-* Does the format of your submission adhere to the NAACL-HLT 2018 format and style guidelines? Is it of an appropriate length? Does it appear to be complete?
+* Does the format of your submission adhere to the NAACL HLT 2018 format and style guidelines? Is it of an appropriate length? Does it appear to be complete?
 
 The  area chair will bring any issues to our attention and violations of the guidelines may lead to rejection without review.
 
@@ -44,11 +44,11 @@ The area chair will coordinate with other chairs in their area to make accept/re
 Relation to our goals
 ---------------------
 
-In our program chairs’ introduction, we talked about our goals as program chairs for NAACl-HLT 2018.
+In our program chairs’ introduction, we talked about our goals as program chairs for NAACL HLT 2018.
 
 As part of our goal to construct a great program, we are giving area chairs more structured views of submissions. Authors and reviewers separately will categorize the contributions of each submission, and the area chairs will weigh these multifaceted views in making accept/reject suggestions. Our area chairs have also contributed suggestions for keynote speakers and suggestions for program committee members. We will continue to rely on them to provide input on other aspects of the research program.
 
-As part of our goal to manage the integrity and quality of the publication process, we have recruited enough area chairs so that each area chair should be assigned no more than 30 submissions even if submissions to NAACL-HLT break the records set by ACL 2017 and EMNLP 2017. We hope that the close attention area chairs will pay to their assigned papers, along with structured guidelines for assessing submissions, will lead to substantial and informative reviews for your submission.
+As part of our goal to manage the integrity and quality of the publication process, we have recruited enough area chairs so that each area chair should be assigned no more than 30 submissions even if submissions to NAACL HLT break the records set by ACL 2017 and EMNLP 2017. We hope that the close attention area chairs will pay to their assigned papers, along with structured guidelines for assessing submissions, will lead to substantial and informative reviews for your submission.
 As part of our goal to ensure broad participation, we have recruited area chairs from across academia and industry, including both experienced area chairs and younger researchers. Here are some statistics about this year’s group of Area Chairs<sup>[1]</sup>:
 
 * They are ⅔ male, ⅓ female
