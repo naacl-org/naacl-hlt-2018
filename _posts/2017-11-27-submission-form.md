@@ -5,15 +5,15 @@ date:   2017-11-27 22:20:46
 category: Chairs Blog
 author: "Amanda Stent"
 ---
-We have a new and more structured submission form for NAACL-HLT 2018. Here we present the new items and explain who will see authors’ responses to them.
+We have a new and more structured submission form for NAACL HLT 2018. Here we present the new items and explain who will see authors’ responses to them.
 
 Some questions and instructions result from our goal to manage the *integrity and quality of the publication process*.
 
 + Instructions:
 
-    - Policies for Submission and Citation – this section links to the ACL and NAACL-HLT 2018 guidelines for others. Please read these guidelines carefully. If your submission does not follow them, it may be rejected without review.
+    - Policies for Submission and Citation – this section links to the ACL and NAACL HLT 2018 guidelines for others. Please read these guidelines carefully. If your submission does not follow them, it may be rejected without review.
 
-    - Authors – please note that per the NAACL-HLT 2018 guidelines for authors, all individuals and only those individuals who made substantial contributions to the work should be listed. No authors may be added, and all authors will receive email notifications for the submission. If an author has a question about our authorship policy, please contact us.
+    - Authors – please note that per the NAACL HLT 2018 guidelines for authors, all individuals and only those individuals who made substantial contributions to the work should be listed. No authors may be added, and all authors will receive email notifications for the submission. If an author has a question about our authorship policy, please contact us.
 
 + Submission form questions:
 
