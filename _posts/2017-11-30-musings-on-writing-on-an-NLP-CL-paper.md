@@ -15,4 +15,4 @@ Thanks for reading, and happy writing!
 
 <br/>
 
-Dan Bilel (Google Research)
+Dan Bikel (Google Research)
