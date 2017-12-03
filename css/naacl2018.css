@@ -250,6 +250,10 @@ hr {
     padding: 10px;
     background-color: #fff;
 }
+#important-dates td {
+    padding: 5px;
+    font-size: 13px;
+}
 /* Footer */
 #footer {
     background-color: #eee;
@@ -320,4 +324,9 @@ ul.post-list > li:hover {
 }
 .address-block > p {
     margin: 0;
+}
+tr.pass > td {
+    font-size: 12px;
+    text-decoration: line-through #d70000;
+    color: #888;
 }
