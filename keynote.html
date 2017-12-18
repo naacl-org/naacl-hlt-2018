@@ -1,0 +1,104 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<div id="main" class="container">
+    <div class="row">
+        <div class="col-12">
+            {% include nav.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <style>
+                .speaker-name {
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    font-weight: 300;
+                    text-align: center;
+                }
+                .speaker-img {
+                    text-align: center;
+                }
+                .speaker-img > img {
+                    border-radius: 50%;
+                }
+                .speaker-desc {
+                    border-left: 2px solid #b2b962;
+                    padding-left: 10px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 13px;
+                    line-height: 1.6;
+                    color: #999;
+                }
+                strong {
+                    color: #666;
+                }
+                .more {
+                    color: #b2b962;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+                .hide {
+                    display: none;
+                }
+                .expand * .more {
+                    display: none;
+                }
+                .expand > .hide {
+                    display: inline;
+                }
+            </style>
+            <h1>Keynote Speakers</h1>
+            <br/>
+            <div class="row">
+                <div class="speaker col-md-4">
+                    <div class="speaker-img">
+                        <img class="img-fluid" src="images/keynote/dilek.jpg"/>
+                    </div>
+                    <div class="speaker-name">
+                        Dilek Hakkani-Tür
+                    </div>
+                    <div class="speaker-desc">
+                        <p>Dilek Hakkani-Tür is a research scientist at <strong>Google Research Dialogue Group</strong>. Her research interests include conversational AI, natural language and speech processing, spoken dialogue systems, and machine learning for language processing.</p>
+                        <p class="hide"> She received her BSc degree from Middle East Technical Univ, in 1994, and MSc and PhD degrees from Bilkent Univ., Department of Computer Engineering, in 1996 and 2000, respectively.</p>
+                        <!--<span class="more" onclick="$(this).parent().parent().addClass('expand');">(More)</span>-->
+                        <p class="hide">She has over 50 patents that were granted and co-authored more than 200 papers in natural language and speech processing. She is the recipient of three best paper awards for her work on active learning for dialogue systems, from IEEE Signal Processing Society, ISCA and EURASIP. She was an associate editor of IEEE Transactions on Audio, Speech and Language Processing (2005-2008), member of the IEEE Speech and Language Technical Committee (2009-2014), area editor for speech and language processing for Elsevier's Digital Signal Processing Journal and IEEE Signal Processing Letters (2011-2013), and currently serves on ISCA Advisory Council (2015-2019). She is a fellow of IEEE and ISCA.</p>
+                    </div>
+                </div>
+                <div class="speaker col-md-4">
+                    <div class="speaker-img">
+                        <img class="img-fluid" src="images/keynote/kevin.jpg"/>
+                    </div>
+                    <div class="speaker-name">
+                        Kevin Knight
+                    </div>
+                    <div class="speaker-desc">
+                        <p>Kevin is a professor of computer science at the <strong>University of Southern California</strong> and fellow of the <strong>Information Sciences Institute</strong>. He is a 2014 fellow of the ACL for foundational contributions to machine translation, to the application of automata for NLP and to decipherment of historical manuscripts.</p>
+                    </div>
+                </div>
+                <div class="speaker col-md-4">
+                    <div class="speaker-img">
+                        <img class="img-fluid" src="images/keynote/charles.jpg"/>
+                    </div>
+                    <div class="speaker-name">
+                        Charles Yang
+                    </div>
+                    <div class="speaker-desc">
+                        <p>Charles Yang is a Professor of Linguistics, Computer Science, and Psychology at the <strong>University of Pennsylvania</strong> and directs the Program in Cognitive Science. He has spent a long time to work out the tricks children use to learn languages and is now ready to try them out on machines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>
