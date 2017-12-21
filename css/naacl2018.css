@@ -6,15 +6,16 @@
 html {
     font-size: 14px;
 }
-h2, h3 {
+h2, h3, h4 {
     font-weight: 400;
     color: #555555;
 }
 h2 {
-    margin-top: 20px;
+    margin-top: 2em;
 }
-h3 {
-    margin-top: 10px;
+h3, h4 {
+    margin-top: 1.2em;
+    margin-bottom: .8em;
 }
 a, a:hover, a:active, a:visited {
     color: #b2b962;

@@ -8,11 +8,11 @@
                 <a class="nav-link" href="/">Welcome</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown-call" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
                     Calls
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu" aria-labelledby="dropdown-call">
                     <a class="dropdown-item" href="/call_for_paper.html">Call for Papers - Research Track</a>
                     <a class="dropdown-item" href="/industry.html">Call for Papers - Industry Track</a>
                     <a class="dropdown-item" href="/call_for_tutorial.html">Call for Tutorials</a>
@@ -29,9 +29,17 @@
             <!--<li class="nav-item">-->
                 <!--<a class="nav-link {% if page.path == 'keynote.html' %}active{% endif %}" href="/keynote.html">Keynote</a>-->
             <!--</li>-->
-            <li class="nav-item">
-                <a class="nav-link {% if page.path == 'venue.html' %}active{% endif %}" href="/venue.html">Venue</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown-participants" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Participants</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-participants">
+                    <a class="dropdown-item" href="/venue.html">Venue</a>
+                    <!--<a class="dropdown-item" href="/local_info.html">Local Information for Visitors</a>-->
+                </div>
             </li>
+            <!--<li class="nav-item">-->
+                <!--<a class="nav-link {% if page.path == 'venue.html' %}active{% endif %}" href="/venue.html">Venue</a>-->
+            <!--</li>-->
             <li class="nav-item">
                 <a class="nav-link {% if page.path == 'sponsor.html' %}active{% endif %}" href="/sponsor.html">Sponsorship Opportunities</a>
             </li>
