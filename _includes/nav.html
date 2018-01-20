@@ -7,6 +7,9 @@
             <li class="nav-item {% if page.path == '' or page.path == 'index.html' %}active{% endif %}">
                 <a class="nav-link" href="/">Welcome</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link {% if page.path == 'registration.html' %}active{% endif %}" href="/registration.html">Registration</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown-call" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
@@ -24,18 +27,21 @@
             </li>
             <li class="nav-item">
                 <!--<a class="nav-link {% if page.path == 'pc_blog.html' %}active{% endif %}" href="/chairs_blog.html">NAACL HLT Chairs Blog</a>-->
-                <a class="nav-link" href="https://naacl2018.wordpress.com/" target="_blank">NAACL HLT Chairs Blog</a>
+                <a class="nav-link" href="https://naacl2018.wordpress.com/" target="_blank">Chairs Blog</a>
             </li>
             <!--<li class="nav-item">-->
                 <!--<a class="nav-link {% if page.path == 'keynote.html' %}active{% endif %}" href="/keynote.html">Keynote</a>-->
             <!--</li>-->
+            <li class="nav-item">
+                <a class="nav-link {% if page.path == 'workshops.html' %}active{% endif %}" href="/workshops.html">Workshops</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown-program" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">Program</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown-participants">
-                    <a class="dropdown-item" href="/keynote.html">Keynote Speech</a>
+                    <a class="dropdown-item" href="/keynote.html">Keynote Speeches</a>
                     <span class="dropdown-item" style="color: #ccc;">Main Conference</span>
-                    <a class="dropdown-item" href="/workshops.html">Workshop</a>
+                    <!--<a class="dropdown-item" href="/workshops.html">Workshop</a>-->
                 </div>
             </li>
             <li class="nav-item dropdown">
