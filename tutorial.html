@@ -1,0 +1,104 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<div id="main" class="container">
+    <div class="row">
+        <div class="col-12">
+            {% include nav.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Tutorial List</h1>
+
+            <!--<table></table>-->
+            <style>
+                ul.tutorial-list {
+                    list-style: none;
+                    padding: 0;
+                }
+                ul.tutorial-list > li {
+                    padding: 10px 15px;
+                    margin-bottom: 15px;
+                    background-color: #fafafa;
+                    border-left: 3px solid #eee;
+                }
+                ul.tutorial-list > li:hover {
+                    border-left-color: #b2b962;
+                }
+                ul.tutorial-list * .title {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #555;
+                }
+                ul.tutorial-list * .body {
+                    margin: .7em 0;
+                }
+                ul.tutorial-list * .date {
+                    margin: .5em 0;
+                    font-style: italic;
+                    color: #aaa;
+                }
+                /*ul.tutorial-list * .link::before {*/
+                    /*content: 'ABSTRACT';*/
+                    /*border-radius: 3px;*/
+                    /*margin-right: 1em;*/
+                    /*padding: 3px;*/
+                    /*color: #fff;*/
+                    /*background-color: #b2b962;*/
+                    /*font-size: 11px;*/
+                    /*font-weight: 600;*/
+                /*}*/
+            </style>
+
+            <ul class="tutorial-list">
+                <li>
+                    <div class="title"><span class="new">T1</span> Modelling Natural Language, Programs, and their Intersection</div>
+                    <div class="body">Graham Neubig and Miltiadis Allamanis</div>
+                    <div class="link"><a href="/downloads/tutorials/NAACL-T1.pdf"
+                                         target="_blank">Abstract</a></div>
+                </li>
+                <li>
+                    <div class="title"><span class="new">T2</span> Deep Learning Approaches to Text Production</div>
+                    <div class="body">Claire Gardent and Shashi Narayan</div>
+                    <div class="link"><a href="/downloads/tutorials/NAACL-T2.pdf"
+                                         target="_blank">Abstract</a></div>
+                </li>
+                <li>
+                    <div class="title"><span class="new">T3</span> Scalable Construction and Reasoning of Massive Knowledge Bases</div>
+                    <div class="body">Xiang Ren, Nanyun Peng and William Yang Wang</div>
+                    <div class="link"><a href="/downloads/tutorials/NAACL-T3.pdf"
+                                         target="_blank">Abstract</a></div>
+                </li>
+                <li>
+                    <div class="title"><span class="new">T4</span> The interplay between lexical resources and
+                        Natural Language Processing</div>
+                    <div class="body">Jose Camacho-Collados, Luis Espinosa Anke and Mohammad Taher Pilehvar</div>
+                    <div class="link"><a href="/downloads/tutorials/NAACL-T4.pdf"
+                                         target="_blank">Abstract</a></div>
+                </li>
+                <li>
+                    <div class="title"><span class="new">T5</span> Socially Responsible NLP</div>
+                    <div class="body">Yulia Tsvetkov, Vinodkumar Prabhakaran and Rob Voigt</div>
+                    <div class="link"><a href="/downloads/tutorials/NAACL-T5.pdf"
+                                         target="_blank">Abstract</a></div>
+                </li>
+                <li>
+                    <div class="title"><span class="new">T6</span> Deep Learning for Conversational AI</div>
+                    <div class="body">Tsung-Hsien Wen, Ivan Vulić, Nikola Mrkšić and Pei-Hao Su</div>
+                    <div class="link"><a href="/downloads/tutorials/NAACL-T6.pdf"
+                                         target="_blank">Abstract</a></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>
