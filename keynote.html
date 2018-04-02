@@ -16,16 +16,24 @@
     <div class="row">
         <div class="col-md-12">
             <style>
+                .speaker {
+                    margin-bottom: 40px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #eee;
+                }
                 .speaker-name {
-                    margin-top: 15px;
+                    /*margin-top: 15px;*/
                     margin-bottom: 10px;
                     font-size: 22px;
                     font-weight: 300;
-                    text-align: center;
+                    /*text-align: center;*/
                 }
                 .speaker-img,
                 .speaker-time,
                 .speaker-title {
+                    /*text-align: center;*/
+                }
+                .speaker-img {
                     text-align: center;
                 }
                 .speaker-img > img {
@@ -37,8 +45,8 @@
                 }
                 .speaker-desc {
                     margin-top: 1em;
-                    border-left: 2px solid #b2b962;
-                    padding-left: 10px;
+                    /*border-left: 2px solid #b2b962;*/
+                    /*padding-left: 10px;*/
                     font-family: 'Roboto', sans-serif;
                     font-size: 13px;
                     line-height: 1.6;
@@ -64,11 +72,14 @@
             </style>
             <h1>Keynote Speakers</h1>
             <br/>
-            <div class="row">
-                <div class="speaker col-md-4">
+            <div class="row speaker">
+                <div class="col-md-4 col-lg-3">
                     <div class="speaker-img">
                         <img class="img-fluid" src="images/keynote/charles.jpg"/>
                     </div>
+
+                </div>
+                <div class="col-md-8 col-lg-9">
                     <div class="speaker-name">
                         Charles Yang
                     </div>
@@ -79,30 +90,40 @@
                         9am-10am, June 2
                     </div>
                     <div class="speaker-desc">
-                        <p>Charles is a Professor of Linguistics, Computer Science, and Psychology at the <strong>University of Pennsylvania</strong> and directs the Program in Cognitive Science. He has spent a long time to work out the tricks children use to learn languages and is now ready to try them out on machines. His most recent book, The Price of Linguistic Productivity, is the winner of the 2017 LSA Leonard Bloomfield award.</p>
+                        <p>Bio: Charles is a Professor of Linguistics, Computer Science, and Psychology at the <strong>University of Pennsylvania</strong> and directs the Program in Cognitive Science. He has spent a long time to work out the tricks children use to learn languages and is now ready to try them out on machines. His most recent book, The Price of Linguistic Productivity, is the winner of the 2017 LSA Leonard Bloomfield award.</p>
                     </div>
                 </div>
-                <div class="speaker col-md-4">
+            </div>
+
+            <div class="row speaker">
+                <div class="col-md-4 col-lg-3">
                     <div class="speaker-img">
                         <img class="img-fluid" src="images/keynote/kevin.jpg"/>
                     </div>
+                </div>
+                <div class="col-md-8 col-lg-9">
                     <div class="speaker-name">
                         Kevin Knight
                     </div>
                     <div class="speaker-title">
-                        Talk title: TBD
+                        Talk title: The Moment When the Future Fell Asleep
                     </div>
                     <div class="speaker-time">
                         9am-10am, June 3
                     </div>
                     <div class="speaker-desc">
-                        <p>Kevin is a professor of computer science at the <strong>University of Southern California</strong> and fellow of the <strong>Information Sciences Institute</strong>. He is a 2014 fellow of the ACL for foundational contributions to machine translation, to the application of automata for NLP,  to decipherment of historical manuscripts, to semantics and to generation.</p>
+                        <p>Bio: Kevin is a professor of computer science at the <strong>University of Southern California</strong> and fellow of the <strong>Information Sciences Institute</strong>. He is a 2014 fellow of the ACL for foundational contributions to machine translation, to the application of automata for NLP,  to decipherment of historical manuscripts, to semantics and to generation.</p>
                     </div>
                 </div>
-                <div class="speaker col-md-4">
+            </div>
+
+            <div class="row speaker">
+                <div class="col-md-4 col-lg-3">
                     <div class="speaker-img">
                         <img class="img-fluid" src="images/keynote/dilek.jpg"/>
                     </div>
+                </div>
+                <div class="col-md-8 col-lg-9">
                     <div class="speaker-name">
                         Dilek Hakkani-Tür
                     </div>
@@ -113,18 +134,74 @@
                         9am-10am, June 4
                     </div>
                     <div class="speaker-desc">
-                        <p>Dilek is a research scientist at <strong>Google Research Dialogue Group</strong> and has previously held positions at Microsoft Research, ICSI, and AT&T Labs – Research. She is a fellow of the IEEE and of ISCA.Her research interests include conversational AI, natural language and speech processing, spoken dialogue systems, and machine learning for language processing.</p>
+                        <p>Bio: Dilek is a research scientist at <strong>Google Research Dialogue Group</strong> and has previously held positions at Microsoft Research, ICSI, and AT&T Labs – Research. She is a fellow of the IEEE and of ISCA.Her research interests include conversational AI, natural language and speech processing, spoken dialogue systems, and machine learning for language processing.</p>
                     </div>
                 </div>
             </div>
 
+            <!--<div class="row">-->
+                <!--<div class="speaker col-md-4">-->
+                    <!--<div class="speaker-img">-->
+                        <!--<img class="img-fluid" src="images/keynote/charles.jpg"/>-->
+                    <!--</div>-->
+                    <!--<div class="speaker-name">-->
+                        <!--Charles Yang-->
+                    <!--</div>-->
+                    <!--<div class="speaker-title">-->
+                        <!--Talk title: TBD-->
+                    <!--</div>-->
+                    <!--<div class="speaker-time">-->
+                        <!--9am-10am, June 2-->
+                    <!--</div>-->
+                    <!--<div class="speaker-desc">-->
+                        <!--<p>Charles is a Professor of Linguistics, Computer Science, and Psychology at the <strong>University of Pennsylvania</strong> and directs the Program in Cognitive Science. He has spent a long time to work out the tricks children use to learn languages and is now ready to try them out on machines. His most recent book, The Price of Linguistic Productivity, is the winner of the 2017 LSA Leonard Bloomfield award.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="speaker col-md-4">-->
+                    <!--<div class="speaker-img">-->
+                        <!--<img class="img-fluid" src="images/keynote/kevin.jpg"/>-->
+                    <!--</div>-->
+                    <!--<div class="speaker-name">-->
+                        <!--Kevin Knight-->
+                    <!--</div>-->
+                    <!--<div class="speaker-title">-->
+                        <!--Talk title: TBD-->
+                    <!--</div>-->
+                    <!--<div class="speaker-time">-->
+                        <!--9am-10am, June 3-->
+                    <!--</div>-->
+                    <!--<div class="speaker-desc">-->
+                        <!--<p>Kevin is a professor of computer science at the <strong>University of Southern California</strong> and fellow of the <strong>Information Sciences Institute</strong>. He is a 2014 fellow of the ACL for foundational contributions to machine translation, to the application of automata for NLP,  to decipherment of historical manuscripts, to semantics and to generation.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="speaker col-md-4">-->
+                    <!--<div class="speaker-img">-->
+                        <!--<img class="img-fluid" src="images/keynote/dilek.jpg"/>-->
+                    <!--</div>-->
+                    <!--<div class="speaker-name">-->
+                        <!--Dilek Hakkani-Tür-->
+                    <!--</div>-->
+                    <!--<div class="speaker-title">-->
+                        <!--Talk title: TBD-->
+                    <!--</div>-->
+                    <!--<div class="speaker-time">-->
+                        <!--9am-10am, June 4-->
+                    <!--</div>-->
+                    <!--<div class="speaker-desc">-->
+                        <!--<p>Dilek is a research scientist at <strong>Google Research Dialogue Group</strong> and has previously held positions at Microsoft Research, ICSI, and AT&T Labs – Research. She is a fellow of the IEEE and of ISCA.Her research interests include conversational AI, natural language and speech processing, spoken dialogue systems, and machine learning for language processing.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
             <h1>Industry Track Keynote Speakers</h1>
             <br/>
-            <div class="row">
-                <div class="speaker col-md-4">
+            <div class="row speaker">
+                <div class="col-md-4 col-lg-3">
                     <div class="speaker-img">
                         <img class="img-fluid" src="images/keynote/mari.jpg"/>
                     </div>
+                </div>
+                <div class="col-md-8 col-lg-9">
                     <div class="speaker-name">
                         Mari Ostendorf
                     </div>
@@ -135,13 +212,17 @@
                         2pm-3pm, June 2
                     </div>
                     <div class="speaker-desc">
-                        <p>Mari is a professor of Electrical Engineering and Associate Vice Provost for Research at the <strong>University of Washington</strong>. She is a Fellow of IEEE and ISCA, and winner of the 2018 IEEE James L. Flanagan Speech and Audio Processing Award. Her recent research has emphasized social communication, and she served as a faculty advisor for the student team winning the inaugural AlexaPrize competition to build a socialbot.</p>
+                        <p>Bio: Mari is a professor of Electrical Engineering and Associate Vice Provost for Research at the <strong>University of Washington</strong>. She is a Fellow of IEEE and ISCA, and winner of the 2018 IEEE James L. Flanagan Speech and Audio Processing Award. Her recent research has emphasized social communication, and she served as a faculty advisor for the student team winning the inaugural AlexaPrize competition to build a socialbot.</p>
                     </div>
                 </div>
-                <div class="speaker col-md-4">
+            </div>
+            <div class="row speaker">
+                <div class="col-md-4 col-lg-3">
                     <div class="speaker-img">
                         <img class="img-fluid" src="images/keynote/daniel.jpg"/>
                     </div>
+                </div>
+                <div class="col-md-8 col-lg-9">
                     <div class="speaker-name">
                         Daniel Marcu
                     </div>
@@ -152,11 +233,50 @@
                         2pm-3pm, June 3
                     </div>
                     <div class="speaker-desc">
-                        <p>Daniel is a Director of MT/NLP at <strong>Amazon</strong>. He is a 2014 fellow of ACL for significant contributions to discourse parsing, summarization and machine translation and for kick starting the statistical machine translation industry.
+                        <p>Bio: Daniel is a Director of MT/NLP at <strong>Amazon</strong>. He is a 2014 fellow of ACL for significant contributions to discourse parsing, summarization and machine translation and for kick starting the statistical machine translation industry.
                         </p>
                     </div>
                 </div>
             </div>
+
+
+            <!--<div class="row">-->
+                <!--<div class="speaker col-md-4">-->
+                    <!--<div class="speaker-img">-->
+                        <!--<img class="img-fluid" src="images/keynote/mari.jpg"/>-->
+                    <!--</div>-->
+                    <!--<div class="speaker-name">-->
+                        <!--Mari Ostendorf-->
+                    <!--</div>-->
+                    <!--<div class="speaker-title">-->
+                        <!--Talk title: TBD-->
+                    <!--</div>-->
+                    <!--<div class="speaker-time">-->
+                        <!--2pm-3pm, June 2-->
+                    <!--</div>-->
+                    <!--<div class="speaker-desc">-->
+                        <!--<p>Mari is a professor of Electrical Engineering and Associate Vice Provost for Research at the <strong>University of Washington</strong>. She is a Fellow of IEEE and ISCA, and winner of the 2018 IEEE James L. Flanagan Speech and Audio Processing Award. Her recent research has emphasized social communication, and she served as a faculty advisor for the student team winning the inaugural AlexaPrize competition to build a socialbot.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="speaker col-md-4">-->
+                    <!--<div class="speaker-img">-->
+                        <!--<img class="img-fluid" src="images/keynote/daniel.jpg"/>-->
+                    <!--</div>-->
+                    <!--<div class="speaker-name">-->
+                        <!--Daniel Marcu-->
+                    <!--</div>-->
+                    <!--<div class="speaker-title">-->
+                        <!--Talk title: TBD-->
+                    <!--</div>-->
+                    <!--<div class="speaker-time">-->
+                        <!--2pm-3pm, June 3-->
+                    <!--</div>-->
+                    <!--<div class="speaker-desc">-->
+                        <!--<p>Daniel is a Director of MT/NLP at <strong>Amazon</strong>. He is a 2014 fellow of ACL for significant contributions to discourse parsing, summarization and machine translation and for kick starting the statistical machine translation industry.-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
 
     </div>
