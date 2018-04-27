@@ -60,7 +60,8 @@
             }
 
             i {
-                color: #555;
+                /*color: #555;*/
+                color: inherit;
                 font-size: .9em;
             }
 
@@ -90,7 +91,7 @@
         </style>
         <div class="col-md-12">
             <h1>Program</h1>
-            <h2>Overview</h2>
+            <h2 id="program-overview">Overview</h2>
             <br/>
             <table class="table ov">
                 <thead class="thead-default">
@@ -305,7 +306,7 @@
                         <div>
                             <div class="program-sess">Announcements</div>
                             <div class="program-time">08:45 - 09:00</div>
-                            <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>-->
+                            <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> TBD</div>-->
                         </div>
                     </td>
                 </tr>
@@ -332,51 +333,53 @@
                 <tr>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Cognitive Modeling and Psycholinguistics</div>
+                            <div class="program-sess"><a href="#sess-oral-cognitive">Cognitive Modeling and Psycholinguistics</a></div>
                             <div class="program-time">10:30 - 11:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Summarization</div>
+                            <div class="program-sess"><a href="#sess-oral-summarization">Summarization</a></div>
                             <div class="program-time">10:30 - 11:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Semantics 1</div>
+                            <div class="program-sess"><a href="#sess-oral-semantics1">Semantics 1</a></div>
                             <div class="program-time">10:30 - 11:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
                         </div>
                     </td>
                     <td rowspan="2" style="width: 25%">
                         <div>
-                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-sess"><a href="#sess-poster-ie">Posters and Demos</a></div>
                             <div class="program-time">10:30 - 12:00</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                            <div><a href="#sess-poster-ie">&#8226 Information Extraction</a></div>
+                            <div><a href="#sess-poster-tagging">&#8226 Tagging Chunking Syntax and Parsing</a></div>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Machine Learning 3</div>
+                            <div class="program-sess"><a href="#sess-oral-ml3">Machine Learning 3</a></div>
                             <div class="program-time">11:30 - 12:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Social Media and Computational Social Science 2</div>
+                            <div class="program-sess"><a href="#sess-oral-social2">Social Media and Computational Social Science 2</a></div>
                             <div class="program-time">11:30 - 12:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Vision, Robotics and Other Grounding 2</div>
+                            <div class="program-sess"><a href="#sess-oral-vision2">Vision, Robotics and Other Grounding 2</a></div>
                             <div class="program-time">11:30 - 12:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
                         </div>
@@ -390,7 +393,7 @@
                         <div>
                             <div class="program-sess">Lunch <i class="fas fa-utensils"></i></div>
                             <div class="program-time">12:30 - 14:00</div>
-                            <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> </div>-->
+                            <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> TBD</div>-->
                         </div>
                     </td>
                 </tr>
@@ -402,11 +405,12 @@
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
                         </div>
                     </td>
-                    <td rowspan="3" style="width: 25%">
+                    <td rowspan="2" style="width: 25%">
                         <div>
-                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-sess"><a href="#sess-poster-phonology">Posters and Demos</a></div>
                             <div class="program-time">14:00 - 17:00</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                            <div><a href="#sess-poster-phonology">&#8226 Phonology Morphology and Word Segmentation</a></div>
                         </div>
                     </td>
                 </tr>
@@ -422,23 +426,32 @@
                 <tr>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Text Mining</div>
+                            <div class="program-sess"><a href="#sess-oral-text">Text Mining</a></div>
                             <div class="program-time">15:30 - 17:00</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Semantics 2</div>
+                            <div class="program-sess"><a href="#sess-oral-semantics2">Semantics 2</a></div>
                             <div class="program-time">15:30 - 17:00</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Tagging Chunking Syntax and Parsing 1</div>
+                            <div class="program-sess"><a href="#sess-oral-tagging1">Tagging Chunking Syntax and Parsing 1</a></div>
                             <div class="program-time">15:30 - 17:00</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess"><a href="#sess-poster-ml">Posters and Demos</a></div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                            <div><a href="#sess-poster-ml">&#8226 Machine Learning</a></div>
+                            <div><a href="#sess-poster-mt">&#8226 Machine Translation</a></div>
                         </div>
                     </td>
                     <!--<td style="width: 25%">-->
@@ -459,7 +472,7 @@
                     <!--</td>-->
                     <td colspan="4">
                         <div>
-                            <div class="program-sess">Test of Time</div>
+                            <div class="program-sess"><a href="#sess-test-of-time">Test of Time</a></div>
                             <div class="program-time">17:15 - 18:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
                         </div>
@@ -525,21 +538,21 @@
                 <tr>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Information Extraction 3</div>
+                            <div class="program-sess"><a href="#sess-oral-ie3">Information Extraction 3</a></div>
                             <div class="program-time">10:30 - 11:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Semantics 3</div>
+                            <div class="program-sess"><a href="#sess-oral-semantics3">Semantics 3</a></div>
                             <div class="program-time">10:30 - 11:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Generation 1
+                            <div class="program-sess"><a href="#sess-oral-generation1">Generation 1</a>
                             </div>
                             <div class="program-time">10:30 - 11:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
@@ -547,30 +560,33 @@
                     </td>
                     <td rowspan="2" style="width: 25%">
                         <div>
-                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-sess"><a href="#sess-poster-qa">Posters and Demos</a></div>
                             <div class="program-time">10:30 - 12:00</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                            <div><a href="#sess-poster-qa">&#8226 Question Answering</a></div>
+                            <div><a href="#sess-poster-social">&#8226 Social Media and Computational Social Science</a></div>
+                            <div><a href="#sess-poster-summarization">&#8226 Summarization</a></div>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Dialogue and Interactive Systems</div>
+                            <div class="program-sess"><a href="#sess-oral-dialogue">Dialogue and Interactive Systems</a></div>
                             <div class="program-time">11:30 - 12:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Information Extraction 4</div>
+                            <div class="program-sess"><a href="#sess-oral-ie4">Information Extraction 4</a></div>
                             <div class="program-time">11:30 - 12:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Generation 2</div>
+                            <div class="program-sess"><a href="#sess-oral-generation2">Generation 2</a></div>
                             <div class="program-time">11:30 - 12:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
                         </div>
@@ -591,30 +607,36 @@
                 <tr>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Sentiment Analysis</div>
+                            <div class="program-sess"><a href="#sess-oral-sentiment">Sentiment Analysis</a></div>
                             <div class="program-time">14:00 - 15:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Discourse</div>
+                            <div class="program-sess"><a href="#sess-oral-discourse">Discourse</a></div>
                             <div class="program-time">14:00 - 15:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Tagging Chunking Syntax and Parsing 2</div>
+                            <div class="program-sess"><a href="#sess-oral-tagging2">Tagging Chunking Syntax and Parsing 2</a></div>
                             <div class="program-time">14:00 - 15:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
                         </div>
                     </td>
                     <td style="width: 25%">
                         <div>
-                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-sess"><a href="#sess-poster-cognitive">Posters and Demos</a></div>
                             <div class="program-time">14:00 - 15:30</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                            <div><a href="#sess-poster-cognitive">&#8226 Cognitive Modeling and Psycholinguistics</a></div>
+                            <div><a href="#sess-poster-dialogue">&#8226 Dialogue and Interactive Systems</a></div>
+                            <div><a href="#sess-poster-text">&#8226 Text Mining</a></div>
+                            <div><a href="#sess-poster-speech">&#8226 Speech</a></div>
+                            <div><a href="#sess-poster-vision">&#8226 Vision, Robotics and Other Grounding</a></div>
+
                         </div>
                     </td>
                 </tr>
@@ -639,7 +661,7 @@
                 <tr>
                     <td colspan="4">
                         <div>
-                            <div class="program-sess">Outstanding Papers and Closing Session</div>
+                            <div class="program-sess"><a href="#sess-outstanding">Outstanding Papers and Closing Session</a></div>
                             <div class="program-time">17:00 - 18:15</div>
                             <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
                             <div>Chair: Joel Tetreault</div>
@@ -1880,7 +1902,7 @@
                     <td><b>Morning Coffee</b> - Empire Foyer
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-cognitive">
                     <td>10:30 - 11:30</td>
                     <td><b>Session Oral: Cognitive Modeling and Psycholinguistics</b> - Empire A
                         <div class="program-chair">Chair: Kristy Hollingshead Seitz</div>
@@ -1915,7 +1937,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-summarization">
                     <td>10:30 - 11:30</td>
                     <td><b>Session Oral: Summarization</b> - Empire B
                         <div class="program-chair">Chair: Rada Mihalcea</div>
@@ -1946,7 +1968,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-semantics1">
                     <td>10:30 - 11:30</td>
                     <td><b>Session Oral: Semantics 1</b> - Empire C
                         <div class="program-chair">Chair: Jonathan May</div>
@@ -1979,7 +2001,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-ie">
                     <td>10:30 - 12:00</td>
                     <td><b>Session Posters and Demos: Information Extraction</b> - Elite Hall B
                         <div class="program-chair">Chair: Avirup Sil, Marine Carpuat</div>
@@ -2193,7 +2215,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-tagging">
                     <td>10:30 - 12:00</td>
                     <td><b>Session Posters and Demos: Tagging Chunking Syntax and Parsing</b> - Elite Hall B
                         <div class="program-chair">Chair: Avirup Sil, Marine Carpuat</div>
@@ -2328,7 +2350,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-ml3">
                     <td>11:30 - 12:30</td>
                     <td><b>Session Oral: Machine Learning 3</b> - Empire A
                         <div class="program-chair">Chair: Yulia Tsvetkov</div>
@@ -2359,7 +2381,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-social2">
                     <td>11:30 - 12:30</td>
                     <td><b>Session Oral: Social Media and Computational Social Science 2</b> - Empire B
                         <div class="program-chair">Chair: Nanyun Peng</div>
@@ -2392,10 +2414,10 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-vision2">
                     <td>11:30 - 12:30</td>
-                    <td><b>Session Oral: SoVision, Robotics and Other Grounding 2</b> - Empire C
-                        <div class="program-chair">Chair: Nanyun Peng</div>
+                    <td><b>Session Oral: Vision, Robotics and Other Grounding 2</b> - Empire C
+                        <div class="program-chair">Chair: TBD</div>
                     </td>
                 </tr>
                 <tr>
@@ -2438,7 +2460,7 @@
                     <td><b>Afternoon Coffee</b> - Empire Foyer
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-text">
                     <td>15:30 - 17:00</td>
                     <td><b>Session Oral: Text Mining</b> - Empire A
                         <div class="program-chair">Chair: Kai-wei Chang</div>
@@ -2486,7 +2508,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-semantics2">
                     <td>15:30 - 17:00</td>
                     <td><b>Session Oral: Semantics 2</b> - Empire B
                         <div class="program-chair">Chair: Ido Dagan</div>
@@ -2530,7 +2552,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-tagging1">
                     <td>15:30 - 17:00</td>
                     <td><b>Session Oral: Tagging Chunking Syntax and Parsing 1</b> - Empire C
                         <div class="program-chair">Chair: Michael Collins</div>
@@ -2577,7 +2599,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-phonology">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Posters and Demos: Phonology Morphology and Word Segmentation</b> - Elite Hall B
                         <div class="program-chair">Chair: Mona Diab</div>
@@ -2641,7 +2663,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-ml">
                     <td>15:30 - 17:00</td>
                     <td><b>Session Posters and Demos: Machine Learning</b> - Elite Hall B
                         <div class="program-chair">Chair: Mona Diab</div>
@@ -2773,7 +2795,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-mt">
                     <td>15:30 - 17:00</td>
                     <td><b>Session Posters and Demos: Machine Translation</b> - Elite Hall B
                         <div class="program-chair">Chair: Mona Diab</div>
@@ -2937,7 +2959,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-test-of-time">
                     <td>17:15 - 18:30</td>
                     <td><b>Test of Time</b> - Empire B</td>
                 </tr>
@@ -2999,7 +3021,7 @@
                     <td>10:00 - 10:30</td>
                     <td><b>Morning Coffee</b> - Empire Foyer</td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-ie3">
                     <td>10:30 - 11:30</td>
                     <td><b>Session Oral: Information Extraction 3</b> - Empire A
                         <div class="program-chair">Chair: Bonan Min</div>
@@ -3034,7 +3056,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-semantics3">
                     <td>10:30 - 11:30</td>
                     <td><b>Session Oral: Semantics 3</b> - Empire B
                         <div class="program-chair">Chair: Yoav Artzi</div>
@@ -3069,7 +3091,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-generation1">
                     <td>10:30 - 11:30</td>
                     <td><b>Session Oral: Generation 1</b> - Empire C
                         <div class="program-chair">Chair: Michael White</div>
@@ -3104,9 +3126,9 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-qa">
                     <td>10:30 - 12:00</td>
-                    <td><b>Session Posters and Demos: Generation 1</b> - Elite Hall B
+                    <td><b>Session Posters and Demos: Question Answering</b> - Elite Hall B
                         <div class="program-chair">Chair: Lu Wang</div>
                     </td>
                 </tr>
@@ -3189,7 +3211,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-social">
                     <td>10:30 - 12:00</td>
                     <td><b>Session Posters and Demos: Social Media and Computational Social Science</b> - Elite Hall B
                         <div class="program-chair">Chair: Lu Wang</div>
@@ -3262,7 +3284,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-summarization">
                     <td>10:30 - 12:00</td>
                     <td><b>Session Posters and Demos: Summarization</b> - Elite Hall B
                         <div class="program-chair">Chair: Lu Wang</div>
@@ -3442,7 +3464,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-dialogue">
                     <td>11:30 - 12:30</td>
                     <td><b>Session Oral: Dialogue and Interactive Systems</b> - Empire A
                         <div class="program-chair">Chair: Yun-Nung (Vivia) Chen</div>
@@ -3477,7 +3499,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-ie4">
                     <td>11:30 - 12:30</td>
                     <td><b>Session Oral: Information Extraction 4</b> - Empire B
                         <div class="program-chair">Chair: Xiang Ren</div>
@@ -3512,7 +3534,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-generation2">
                     <td>11:30 - 12:30</td>
                     <td><b>Session Oral: Generation 2</b> - Empire C
                         <div class="program-chair">Chair: TBD</div>
@@ -3553,7 +3575,7 @@
                     <td><b>Lunch</b>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-sentiment">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Oral: Sentiment Analysis</b> - Empire A
                         <div class="program-chair">Chair: Smaranda Muresan</div>
@@ -3606,7 +3628,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-discourse">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Oral: Discourse</b> - Empire B
                         <div class="program-chair">Chair: Vincent Ng</div>
@@ -3653,7 +3675,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-oral-tagging2">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Oral: Tagging Chunking Syntax and Parsing 2</b> - Empire C
                         <div class="program-chair">Chair: TBD</div>
@@ -3693,7 +3715,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-cognitive">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Posters and Demos: Cognitive Modeling and Psycholinguistics</b> - Elite Hall B
                         <div class="program-chair">Chair: Hannaneh Hajishirzi</div>
@@ -3747,7 +3769,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-dialogue">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Posters and Demos: Dialogue and Interactive Systems</b> - Elite Hall B
                         <div class="program-chair">Chair: Hannaneh Hajishirzi</div>
@@ -3814,7 +3836,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-text">
                     <td>15:00 - 15:30</td>
                     <td><b>Session Posters and Demos: Text Mining</b> - Elite Hall B
                         <div class="program-chair">Chair: Hannaneh Hajishirzi</div>
@@ -3863,7 +3885,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-speech">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Posters and Demos: Speech</b> - Elite Hall B
                         <div class="program-chair">Chair: Hannaneh Hajishirzi</div>
@@ -3916,7 +3938,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-poster-vision">
                     <td>14:00 - 15:30</td>
                     <td><b>Session Posters and Demos: Vision, Robotics and Other Grounding</b> - Elite Hall B
                         <div class="program-chair">Chair: Hannaneh Hajishirzi</div>
@@ -4031,7 +4053,7 @@
                     <td><b>Business Meeting</b> - Empire Ballroom
                     </td>
                 </tr>
-                <tr>
+                <tr id="sess-outstanding">
                     <td>17:00 - 18:15</td>
                     <td><b>Outstanding Papers and Closing Session</b> - Empire Ballroom
                         <div>Chair: Joel Tetreault</div>
@@ -4077,7 +4099,28 @@
                 </tbody>
             </table>
         </div>
+
     </div>
+    <style>
+        #back-to-top-btn {
+            opacity: .5;
+            z-index: 99;
+            width: 9em;
+            position: fixed;
+            border-radius: 5px;
+            padding: 5px;
+            bottom: 0;
+            right: 10px;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            background-color: #b2b962;
+        }
+        #back-to-top-btn:hover {
+            opacity: 1;
+        }
+    </style>
+    <a href="#program-overview"><div id="back-to-top-btn"><i class="fas fa-arrow-alt-circle-up"></i> Back To Top</div></a>
 </div>
 {% include footer.html %}
 </body>
