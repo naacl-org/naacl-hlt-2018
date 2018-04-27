@@ -334,3 +334,14 @@ tr.pass > td {
     text-decoration: line-through #d70000;
     color: #888;
 }
+
+/* SPONSORS */
+.sponsor-item {
+    padding: 10px;
+}
+
+.sponsor-img {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 100%;
+}
