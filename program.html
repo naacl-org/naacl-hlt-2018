@@ -1,0 +1,1834 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+{% include header.html %}
+<div id="main" class="container">
+    <div class="row">
+        <div class="col-12">
+            {% include nav.html %}
+        </div>
+    </div>
+    <div class="row">
+        <style>
+            a, a:visited, a:hover, a:link {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            .program-block {
+                font-size: .8em;
+                color: #666;
+                border-left: 3px solid #eee;
+                margin-bottom: 10px;
+                padding: 5px 15px;
+                font-style: italic;
+            }
+
+            .program-block:hover {
+                background-color: #f9f9f9;
+                border-left-color: #b2b962;
+            }
+
+            .program-block b {
+                font-size: 1.1em;
+                font-style: normal;
+                color: #555;
+            }
+
+            .program-sess {
+                font-size: 1.2em;
+                font-weight: 500;
+            }
+
+            .program-time {
+                color: #555;
+                font-style: italic;
+            }
+
+            .program-loc {
+                color: #555;
+            }
+
+            i {
+                color: #555;
+                font-size: .9em;
+            }
+
+            .program-loc > i {
+                color: #b2b962;
+                font-size: .9em;
+            }
+
+            table.ov {
+                border-top: 2px solid #e8eaeb;
+                border-bottom: 2px solid #e8eaeb;
+            }
+
+            table.ov * td:hover {
+                background-color: #f5f5f5;
+            }
+
+            table.ov * td,
+            table.ov * th {
+                border: 1px solid #eceeef;
+                padding: 10px 15px;
+            }
+
+            table.ov * th {
+                font-size: 1.4em;
+            }
+        </style>
+        <div class="col-md-12">
+            <h1>Program</h1>
+            <h2>Overview</h2>
+            <br/>
+            <table class="table ov">
+                <thead class="thead-default">
+                <tr>
+                    <th colspan="4">Saturday, June 2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Breakfast <i class="fas fa-utensils"></i></div>
+                            <div class="program-time">07:30 - 08:45</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Welcome from the Chairs</div>
+                            <div class="program-time">08:45 - 09:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Keynote 1</div>
+                            <div class="program-time">09:00 - 10:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Morning Coffee <i class="fas fa-coffee"></i></div>
+                            <div class="program-time">10:00 - 10:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Information Extraction 1</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Phonology Morphology and Word Segmentation</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Speech</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <td rowspan="2" style="width: 25%">
+                        <div>
+                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-time">10:30 - 12:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Machine Learning 1</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Information Extraction 2</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Machine Translation</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color: #f5f5f5; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Lunch <i class="fas fa-utensils"></i></div>
+                            <div class="program-time">12:30 - 14:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Industry Track Keynote</div>
+                            <div class="program-time">14:00 - 15:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Afternoon Coffee <i class="fas fa-coffee"></i></div>
+                            <div class="program-time">15:00 - 15:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Machine Learning 2</div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Social Media and Computational Social Science 1</div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Vision, Robotics and Other Grounding 1
+                            </div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">NLP Applications</div>
+                            <div class="program-time">17:00 - 18:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Question Answering</div>
+                            <div class="program-time">17:00 - 18:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">SRW highlight papers</div>
+                            <div class="program-time">17:00 - 18:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <table class="table ov">
+                <thead class="thead-default">
+                <tr>
+                    <th colspan="4">Sunday, June 3</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Breakfast <i class="fas fa-utensils"></i></div>
+                            <div class="program-time">07:30 - 08:45</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Announcements</div>
+                            <div class="program-time">08:45 - 09:00</div>
+                            <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>-->
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Keynote 2</div>
+                            <div class="program-time">09:00 - 10:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Morning Coffee <i class="fas fa-coffee"></i></div>
+                            <div class="program-time">10:00 - 10:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Cognitive Modeling and Psycholinguistics</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Summarization</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Semantics 1</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <td rowspan="2" style="width: 25%">
+                        <div>
+                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-time">10:30 - 12:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Machine Learning 3</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Social Media and Computational Social Science 2</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Vision, Robotics and Other Grounding 2</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color: #f5f5f5; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Lunch <i class="fas fa-utensils"></i></div>
+                            <div class="program-time">12:30 - 14:00</div>
+                            <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> </div>-->
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="width: 75%">
+                        <div>
+                            <div class="program-sess">Industry Track Keynote</div>
+                            <div class="program-time">14:00 - 15:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                    <td rowspan="3" style="width: 25%">
+                        <div>
+                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-time">14:00 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div>
+                            <div class="program-sess">Afternoon Coffee <i class="fas fa-coffee"></i></div>
+                            <div class="program-time">15:00 - 15:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Text Mining</div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Semantics 2</div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Tagging Chunking Syntax and Parsing 1</div>
+                            <div class="program-time">15:30 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <!--<td style="width: 25%">-->
+                    <!--<div>-->
+                    <!--<div class="program-sess">Posters and Demos</div>-->
+                    <!--<div class="program-time">15:30 - 17:00</div>-->
+                    <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>-->
+                    <!--</div>-->
+                    <!--</td>-->
+                </tr>
+                <tr>
+                    <!--<td style="width: 25%">-->
+                    <!--<div>-->
+                    <!--<div class="program-sess">NLP Applications</div>-->
+                    <!--<div class="program-time">17:00 - 18:30</div>-->
+                    <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>-->
+                    <!--</div>-->
+                    <!--</td>-->
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Test of Time</div>
+                            <div class="program-time">17:15 - 18:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <!--<td style="width: 25%">-->
+                    <!--<div>-->
+                    <!--<div class="program-sess">SRW highlight papers</div>-->
+                    <!--<div class="program-time">17:00 - 18:30</div>-->
+                    <!--<div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>-->
+                    <!--</div>-->
+                    <!--</td>-->
+                    <!--<td style="width: 25%">-->
+                    <!--</td>-->
+                </tr>
+                </tbody>
+            </table>
+
+            <table class="table ov">
+                <thead class="thead-default">
+                <tr>
+                    <th colspan="4">Monday, June 4</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Breakfast <i class="fas fa-utensils"></i></div>
+                            <div class="program-time">07:30 - 08:45</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Announcements</div>
+                            <div class="program-time">08:45 - 09:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Keynote 3</div>
+                            <div class="program-time">09:00 - 10:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Morning Coffee <i class="fas fa-coffee"></i></div>
+                            <div class="program-time">10:00 - 10:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Information Extraction 3</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Semantics 3</div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Generation 1
+                            </div>
+                            <div class="program-time">10:30 - 11:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <td rowspan="2" style="width: 25%">
+                        <div>
+                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-time">10:30 - 12:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Dialogue and Interactive Systems</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Information Extraction 4</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Generation 2</div>
+                            <div class="program-time">11:30 - 12:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color: #f5f5f5; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Lunch <i class="fas fa-utensils"></i></div>
+                            <div class="program-time">12:30 - 14:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Sentiment Analysis</div>
+                            <div class="program-time">14:00 - 15:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire A</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Discourse</div>
+                            <div class="program-time">14:00 - 15:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire B</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Tagging Chunking Syntax and Parsing 2</div>
+                            <div class="program-time">14:00 - 15:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire C</div>
+                        </div>
+                    </td>
+                    <td style="width: 25%">
+                        <div>
+                            <div class="program-sess">Posters and Demos</div>
+                            <div class="program-time">14:00 - 15:30</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Elite Hall B</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Afternoon Coffee <i class="fas fa-coffee"></i></div>
+                            <div class="program-time">15:30 - 16:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Foyer</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Business Meeting</div>
+                            <div class="program-time">16:00 - 17:00</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            <div class="program-sess">Outstanding Papers and Closing Session</div>
+                            <div class="program-time">17:00 - 18:15</div>
+                            <div class="program-loc"><i class="fas fa-location-arrow"></i> Empire Ballroom</div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <h2>Complete Program Schedule</h2>
+            <br/>
+            <!--<h3>Saturday, June 2</h3>-->
+            <table class="table" style="border-left: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+                <thead class="thead-default">
+                <tr>
+                    <th colspan="2">Saturday, June2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="width: 10em;">07:30 - 08:45</td>
+                    <td><b>Breakfast</b> - Empire Foyer</td>
+                </tr>
+                <tr>
+                    <td>08:45 - 09:00</td>
+                    <td><b>Welcome from the Chairs</b> - Empire Ballroom</td>
+                </tr>
+                <tr>
+                    <td>09:00 - 10:00</td>
+                    <td><b>Keynote 1</b> - Empire Ballroom
+                        <div class="program-chair">Chair: Marilyn Walker, University of California Santa Cruz</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <b>Why 72?</b>
+                            <div>Charles Yang</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:00 - 10:30</td>
+                    <td><b>Morning Coffee</b> - Empire Foyer</td>
+                </tr>
+                <tr>
+                    <td>10:30 - 11:30</td>
+                    <td><b>Session Oral: Information Extraction 1</b> - Empire A
+                        <div class="program-chair">Chair: Dan Bikel, Google</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/69.html" target="_blank">
+                                <div>10:30AM - 10:47AM</div>
+                                <b>Label-aware Double Transfer Learning for Cross-Specialty Medical Named Entity
+                                    Recognition</b>
+                                <div>Zhenghui Wang<sup>1</sup>,&nbsp;Yanru Qu<sup>1</sup>,&nbsp;Liheng Chen<sup>1</sup>,&nbsp;Jian
+                                    Shen<sup>1</sup>,&nbsp;Weinan Zhang<sup>1</sup>,&nbsp;Shaodian Zhang<sup>1</sup>,&nbsp;Yimei
+                                    Gao<sup>2</sup>,&nbsp;Gen
+                                    Gu<sup>2</sup>,&nbsp;Ken Chen<sup>2</sup>,&nbsp;Yong Yu<sup>1</sup></div>
+                                <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Synyi LLC.</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/165.html" target="_blank">
+                                <div>10:48AM - 11:05AM</div>
+                                <b>Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss</b>
+                                <div>Peng Xu and Denilson Barbosa</div>
+                                University of Alberta</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/309.html" target="_blank">
+                                <div>11:06AM - 11:23AM</div>
+                                <b>Variable Typing: Assigning Meaning to Variables in Mathematical Text</b>
+                                <div>Yiannos Stathopoulos<sup>1</sup>,&nbsp;Simon Baker<sup>2</sup>,&nbsp;Marek Rei<sup>2</sup>,&nbsp;Simone
+                                    Teufel<sup>3</sup></div>
+                                <sup>1</sup>Computer Laboratory, University of Cambridge, <sup>2</sup>University of
+                                Cambridge, <sup>3</sup>Cambridge
+                                University</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:30 - 11:30</td>
+                    <td><b>Session Oral: Phonology Morphology and Word Segmentation</b> - Empire B
+                        <div class="program-chair">Chair: Barbara Plank</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/44.html" target="_blank">
+                                <div>10:30AM - 10:47AM</div>
+                                <b>A Deep Generative Model of Vowel Formant Typology</b>
+                                <div>Ryan Cotterell and Jason Eisner</div>
+                                Johns Hopkins University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/94.html" target="_blank">
+                                <div>10:48AM - 11:05AM</div>
+                                <b>Fortification of Neural Morphological Segmentation Models for Polysynthetic
+                                    Minimal-Resource
+                                    Languages</b>
+                                <div>Katharina Kann<sup>1</sup>,&nbsp;Jesus Manuel Mager Hois<sup>2</sup>,&nbsp;Ivan
+                                    Vladimir Meza
+                                    Ruiz<sup>3</sup>,&nbsp;Hinrich Schütze<sup>4</sup></div>
+                                <sup>1</sup>NYU, <sup>2</sup>Universidad Nacional Autónoma de México, <sup>3</sup>Insituto
+                                de
+                                Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS-UNAM), <sup>4</sup>Center
+                                for
+                                Information and Language Processing, University of Munich</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/136.html" target="_blank">
+                                <div>11:06AM - 11:23AM</div>
+                                <b>Improving Character-based Decoding Using Target-Side Morphological Information for
+                                    Neural Machine
+                                    Translation</b>
+                                <div>Peyman Passban<sup>1</sup>,&nbsp;Qun Liu<sup>2</sup>,&nbsp;Andy Way<sup>2</sup>
+                                </div>
+                                <sup>1</sup>ADAPT Centre, Dublin City University, <sup>2</sup>ADAPT</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:30 - 11:30</td>
+                    <td><b>Session Oral: Speech</b> - Empire A
+                        <div class="program-chair">Chair: Dilek Hakkani-Tur</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/199.html" target="_blank">
+                                <div>10:30AM - 10:47AM</div>
+                                <b>Parsing Speech: a Neural Approach to Integrating Lexical and Acoustic-Prosodic
+                                    Information</b>
+                                <div>Trang Tran<sup>1</sup>,&nbsp;Shubham Toshniwal<sup>2</sup>,&nbsp;Mohit
+                                    Bansal<sup>3</sup>,&nbsp;Kevin
+                                    Gimpel<sup>2</sup>,&nbsp;Karen Livescu<sup>4</sup>,&nbsp;Mari Ostendorf<sup>1</sup>
+                                </div>
+                                <sup>1</sup>University of Washington, <sup>2</sup>Toyota Technological Institute at
+                                Chicago,
+                                <sup>3</sup>University of North Carolina at Chapel Hill, <sup>4</sup>TTI-Chicago</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/430.html" target="_blank">
+                                <div>10:48AM - 11:05AM</div>
+                                <b>Tied Multitask Learning for Neural Speech Translation</b>
+                                <div>Antonios Anastasopoulos and David Chiang</div>
+                                University of Notre Dame</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/596.html" target="_blank">
+                                <div>11:06AM - 11:23AM</div>
+                                <b>Please Clap: Modeling Applause in Campaign Speeches</b>
+                                <div>Jon Gillick<sup>1</sup> and David Bamman<sup>2</sup></div>
+                                <sup>1</sup>UC Berkeley, <sup>2</sup>University of California, Berkeley</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:30 - 12:00</td>
+                    <td><b>Session Posters and Demos: Discourse and Pragmatics</b> - Elite Hall B
+                        <div class="program-chair">Chair: Laura Perez </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/353.html" target="_blank">
+                                <b>Automatic Focus Annotation: Bringing Formal Pragmatics Alive in Analyzing the Information
+                                    Structure of Authentic Data</b>
+                                <div>Ramon Ziai and Detmar Meurers</div>
+                                Universität Tübingen</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/508.html" target="_blank">
+                                <b>Attentive Interaction Model: Modeling Changes in View in Argumentation</b>
+                                <div>Yohan Jo,&nbsp;Shivani Poddar,&nbsp;Byungsoo Jeon,&nbsp;Qinlan Shen,&nbsp;Carolyn Rose,&nbsp;Graham
+                                    Neubig</div>
+                                Carnegie Mellon University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/519.html" target="_blank">
+                                <b>Dear Sir or Madam, May I Introduce the GYAFC Dataset: Corpus, Benchmarks and Metrics for
+                                    Formality Style Transfer</b>
+                                <div>Sudha Rao<sup>1</sup> and Joel Tetreault<sup>2</sup></div>
+                                <sup>1</sup>University Of Maryland, College Park, <sup>2</sup>Grammarly</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/578.html" target="_blank">
+                                <b>Improving Implicit Discourse Relation Classification by Modeling Inter-dependencies of Discourse
+                                    Units in a Paragraph</b>
+                                <div>Zeyu Dai<sup>1</sup> and Ruihong Huang<sup>2</sup></div>
+                                <sup>1</sup>Department of Computer Science and Engineering, Texas A&amp;M University, <sup>2</sup>Computer
+                                Science and Engineering, Texas A&amp;M University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/725.html" target="_blank">
+                                <b>Is Something Better than Nothing? Automatically Predicting Stance-based Arguments Using Deep
+                                    Learning and Small Labelled Dataset.</b>
+                                <div>Pavithra Rajendran<sup>1</sup>,&nbsp;Danushka Bollegala<sup>1</sup>,&nbsp;Simon
+                                    Parsons<sup>2</sup></div>
+                                <sup>1</sup>University of Liverpool, <sup>2</sup>Kings College London</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/795.html" target="_blank">
+                                <b>Enhanced Word Representations for Bridging Anaphora Resolution</b>
+                                <div>Yufang Hou</div>
+                                IBM Research Ireland</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1009.html" target="_blank">
+                                <b>Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods</b>
+                                <div>Jieyu Zhao<sup>1</sup>,&nbsp;Tianlu Wang<sup>2</sup>,&nbsp;Mark Yatskar<sup>3</sup>,&nbsp;Vicente
+                                    Ordonez<sup>2</sup>,&nbsp;Kai-Wei Chang<sup>4</sup></div>
+                                <sup>1</sup>University of California, Los Angeles, <sup>2</sup>University of Virginia, <sup>3</sup>University
+                                of Washington, <sup>4</sup>UCLA</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1017.html" target="_blank">
+                                <b>Gender Bias in Coreference Resolution</b>
+                                <div>Rachel Rudinger<sup>1</sup>,&nbsp;Jason Naradowsky<sup>2</sup>,&nbsp;Brian Leonard<sup>1</sup>,&nbsp;Benjamin
+                                    Van Durme<sup>3</sup></div>
+                                <sup>1</sup>Johns Hopkins University, <sup>2</sup>University College London, <sup>3</sup>JHU</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1070.html" target="_blank">
+                                <b>Neural Models for Reasoning over Multiple Mentions Using Coreference</b>
+                                <div>Bhuwan Dhingra<sup>1</sup>,&nbsp;Qiao Jin<sup>2</sup>,&nbsp;Zhilin Yang<sup>1</sup>,&nbsp;William
+                                    Cohen<sup>1</sup>,&nbsp;Ruslan Salakhutdinov<sup>1</sup></div>
+                                <sup>1</sup>Carnegie Mellon University, <sup>2</sup>University of Pittsburgh</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1095.html" target="_blank">
+                                <b>Integrating Stance Detection and Fact Checking in a Unified Corpus</b>
+                                <div>Ramy Baly<sup>1</sup>,&nbsp;Mitra Mohtarami<sup>2</sup>,&nbsp;James Glass<sup>1</sup>,&nbsp;Lluís
+                                    Màrquez<sup>3</sup>,&nbsp;Alessandro Moschitti<sup>4</sup>,&nbsp;Preslav Nakov<sup>5</sup></div>
+                                <sup>1</sup>Massachusetts Institute of Technology, <sup>2</sup>MIT Computer Science and Artificial
+                                Intelligence Lab, <sup>3</sup>Amazon Core ML, <sup>4</sup>Amazon (prof. in Computer Science at
+                                University of Trento), <sup>5</sup>Qatar Computing Research Institute, HBKU</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1098.html" target="_blank">
+                                <b>Multi-Task Learning for Argumentation Mining in Low-Resource Settings</b>
+                                <div>Claudia Schulz,&nbsp;Steffen Eger,&nbsp;Johannes Daxenberger,&nbsp;Tobias Kahse,&nbsp;Iryna
+                                    Gurevych</div>
+                                UKP Lab, Technische Universität Darmstadt</a>
+                        </div>
+                        <div class="program-block">
+                            <b>Alignment, Acceptance, and Rejection of Group Identities in Online Political Discourse (SRW)</b>
+                            <div>Hagyeong Shin and Gabriel Doyle</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:30 - 12:00</td>
+                    <td><b>Session Posters and Demos: Generation</b> - Elite Hall B
+                        <div class="program-chair">Chair: Laura Perez </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/287.html" target="_blank">
+                                <b>Query and Output: Generating Words by Querying Distributed Word Representations for Paraphrase
+                                    Generation</b>
+                                <div>Shuming Ma<sup>1</sup>,&nbsp;Xu Sun<sup>2</sup>,&nbsp;Wei Li<sup>3</sup>,&nbsp;Sujian
+                                    Li<sup>4</sup>,&nbsp;Wenjie Li<sup>5</sup>,&nbsp;Xuancheng Ren<sup>2</sup></div>
+                                <sup>1</sup>Department of Computer Science, School of EECS, Peking University, <sup>2</sup>Peking
+                                University, <sup>3</sup>Key Laboratory of Computational Linguistics, Peking University, <sup>4</sup>Peking
+                                Univeristy, <sup>5</sup>The Hong Kong Polytechnic University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/288.html" target="_blank">
+                                <b>Zero-Shot Question Generation from Knowledge Graphs for Unseen Predicates and Entity Types</b>
+                                <div>Hady Elsahar<sup>1</sup>,&nbsp;Christophe Gravier<sup>2</sup>,&nbsp;Frederique
+                                    Laforest<sup>3</sup></div>
+                                <sup>1</sup>Université de lyon - UJM, <sup>2</sup>Université Jean Monnet, <sup>3</sup>Université de
+                                Lyon</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/416.html" target="_blank">
+                                <b>Simplification Using Paraphrases and Context-Based Lexical Substitution</b>
+                                <div>Reno Kriz<sup>1</sup>,&nbsp;Eleni Miltsakaki<sup>2</sup>,&nbsp;Marianna Apidianaki<sup>3</sup>,&nbsp;Chris
+                                    Callison-Burch<sup>1</sup></div>
+                                <sup>1</sup>University of Pennsylvania, <sup>2</sup>Choosito, Inc., <sup>3</sup>LIMSI-CNRS,
+                                University Paris-Saclay</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/513.html" target="_blank">
+                                <b>Discourse-Aware Neural Rewards for Coherent Text Generation</b>
+                                <div>Antoine Bosselut<sup>1</sup>,&nbsp;Asli Celikyilmaz<sup>2</sup>,&nbsp;Xiaodong He<sup>2</sup>,&nbsp;Jianfeng
+                                    Gao<sup>3</sup>,&nbsp;Po-Sen Huang<sup>2</sup>,&nbsp;Yejin Choi<sup>1</sup></div>
+                                <sup>1</sup>University of Washington, <sup>2</sup>Microsoft Research, <sup>3</sup>Microsoft
+                                Research, Redmond</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/579.html" target="_blank">
+                                <b>A Melody-conditioned Lyrics Language Model</b>
+                                <div>Kento Watanabe<sup>1</sup>,&nbsp;Yuichiroh Matsubayashi<sup>1</sup>,&nbsp;Satoru
+                                    Fukayama<sup>2</sup>,&nbsp;Masataka Goto<sup>2</sup>,&nbsp;Kentaro Inui<sup>3</sup>,&nbsp;Tomoyasu
+                                    Nakano<sup>2</sup></div>
+                                <sup>1</sup>Tohoku University, <sup>2</sup>National Institute of Advanced Industrial Science and
+                                Technology (AIST), <sup>3</sup>Tohoku University / RIKEN AIP</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/666.html" target="_blank">
+                                <b>A Deep Ensemble Model with Slot Alignment for Sequence-to-Sequence Natural Language
+                                    Generation</b>
+                                <div>Juraj Juraska<sup>1</sup>,&nbsp;Panagiotis Karagiannis<sup>1</sup>,&nbsp;Kevin
+                                    Bowden<sup>2</sup>,&nbsp;Marilyn Walker<sup>3</sup></div>
+                                <sup>1</sup>University of California, Santa Cruz, <sup>2</sup>ucsc, <sup>3</sup>University of
+                                California Santa Cruz</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/690.html" target="_blank">
+                                <b>Natural Answer Generation with Heterogeneous Memory</b>
+                                <div>Yao Fu and Yansong Feng</div>
+                                Peking University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/765.html" target="_blank">
+                                <b>Neural Poetry Translation</b>
+                                <div>Marjan Ghazvininejad<sup>1</sup>,&nbsp;Yejin Choi<sup>2</sup>,&nbsp;Kevin
+                                    Knight<sup>3</sup></div>
+                                <sup>1</sup>USC, <sup>2</sup>University of Washington, <sup>3</sup>USC/ISI</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/916.html" target="_blank">
+                                <b>Natural Language Generation by Hierarchical Decoding with Linguistic Patterns</b>
+                                <div>Shang-Yu Su,&nbsp;Kai-Ling Lo,&nbsp;Yi Ting Yeh,&nbsp;Yun-Nung Chen</div>
+                                National Taiwan University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/957.html" target="_blank">
+                                <b>RankME: Reliable Human Ratings for Natural Language Generation</b>
+                                <div>Jekaterina Novikova<sup>1</sup>,&nbsp;Ondřej Dušek<sup>2</sup>,&nbsp;Verena
+                                    Rieser<sup>2</sup></div>
+                                <sup>1</sup>Heriot Watt University, <sup>2</sup>Heriot-Watt University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1014.html" target="_blank">
+                                <b>Sentence Simplification with Memory-Augmented Neural Networks</b>
+                                <div>Tu Vu<sup>1</sup>,&nbsp;Baotian Hu<sup>2</sup>,&nbsp;Tsendsuren Munkhdalai<sup>3</sup>,&nbsp;Hong
+                                    Yu<sup>3</sup></div>
+                                <sup>1</sup>University of Massachusetts Amherst, <sup>2</sup>Harbin Institute of Technology Shenzhen
+                                Graduate School, <sup>3</sup>University of Massachusetts</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1019.html" target="_blank">
+                                <b>Guiding Generation for Abstractive Text Summarization Based on Key Information Guide Network</b>
+                                <div>Chenliang Li,&nbsp;Weiran Xu,&nbsp;Si Li,&nbsp;Sheng GAO</div>
+                                Beijing University of Posts and Telecommunications</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1108.html" target="_blank">
+                                <b>Automatic Dialogue Generation with Expressed Emotions</b>
+                                <div>Chenyang Huang<sup>1</sup>,&nbsp;Osmar Zaiane<sup>2</sup>,&nbsp;Amine Trabelsi<sup>2</sup>,&nbsp;Nouha
+                                    Dziri<sup>2</sup></div>
+                                <sup>1</sup>Dept. of Computing Science, University of Alberta, <sup>2</sup>University of Alberta</a>
+                        </div>
+                        <div class="program-block">
+                            <b>Quality Estimation for Automatically Generated Titles of eCommerce Browse Pages (INDUSTRY TRACK)</b>
+                            <div>Nicola Ueffing, José G. C. de Souza and Gregor Leusch</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:30 - 12:00</td>
+                    <td><b>Session Posters and Demos: NLP Applications</b> - Elite Hall B
+                        <div class="program-chair">Chair: Laura Perez </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/383.html" target="_blank">
+                                <b>Content-Based Citation Recommendation</b>
+                                <div>Chandra Bhagavatula<sup>1</sup>,&nbsp;Sergey Feldman<sup>2</sup>,&nbsp;Russell Power<sup>3</sup>,&nbsp;Waleed
+                                    Ammar<sup>1</sup></div>
+                                <sup>1</sup>Allen Institute for Artificial Intelligence, <sup>2</sup>Data Cowboys, <sup>3</sup>-</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/454.html" target="_blank">
+                                <b>Neural Automated Essay Scoring and Coherence Modeling for Adversarially Crafted Input</b>
+                                <div>Youmna Farag,&nbsp;Helen Yannakoudakis,&nbsp;Ted Briscoe</div>
+                                University of Cambridge</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/459.html" target="_blank">
+                                <b>QuickEdit: Editing Text &amp; Translations by Crossing Words Out</b>
+                                <div>David Grangier<sup>1</sup> and Michael Auli<sup>2</sup></div>
+                                <sup>1</sup>Facebook, <sup>2</sup>Facebook AI Research</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/509.html" target="_blank">
+                                <b>Automated Essay Scoring in the Presence of Biased Ratings</b>
+                                <div>Evelin Amorim<sup>1</sup>,&nbsp;Marcia Cançado<sup>1</sup>,&nbsp;Adriano Veloso<sup>2</sup></div>
+                                <sup>1</sup>Universidade Federal de Minas Gerais, <sup>2</sup>UFMG</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/517.html" target="_blank">
+                                <b>Tempo-Lexical Context Driven Word Embedding for Cross-Session Search Task Extraction</b>
+                                <div>Procheta Sen<sup>1</sup>,&nbsp;Debasis Ganguly<sup>2</sup>,&nbsp;Gareth Jones<sup>1</sup></div>
+                                <sup>1</sup>Dublin City University, <sup>2</sup>IBM Research Lab, Dublin</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/603.html" target="_blank">
+                                <b>Looking beyond the Surface:A Challenge Set for Reading Comprehension over Multiple Sentences</b>
+                                <div>Daniel Khashabi<sup>1</sup>,&nbsp;Snigdha Chaturvedi<sup>2</sup>,&nbsp;Michael Roth<sup>3</sup>,&nbsp;Shyam
+                                    Upadhyay<sup>1</sup>,&nbsp;Dan Roth<sup>4</sup></div>
+                                <sup>1</sup>University of Pennsylvania, <sup>2</sup>University of Illinois, Urbana-Champaign,
+                                <sup>3</sup>Saarland University, <sup>4</sup>University of Illinois</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/733.html" target="_blank">
+                                <b>Reference-less Measure of Faithfulness for Grammatical Error Correction</b>
+                                <div>Leshem Choshen<sup>1</sup> and Omri Abend<sup>2</sup></div>
+                                <sup>1</sup>Hebrew University Jerusalem Israel, <sup>2</sup>The Hebrew University of Jerusalem</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/829.html" target="_blank">
+                                <b>Humor Recognition Using Deep Learning</b>
+                                <div>Peng-Yu Chen and Von-Wun Soo</div>
+                                National Tsing Hua University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/962.html" target="_blank">
+                                <b>A Corpus of Non-Native Written English Annotated for Metaphor</b>
+                                <div>Beata Beigman Klebanov,&nbsp;Chee Wee (Ben) Leong,&nbsp;Michael Flor</div>
+                                Educational Testing Service</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/969.html" target="_blank">
+                                <b>Annotation Artifacts in Natural Language Inference Data</b>
+                                <div>Suchin Gururangan<sup>1</sup>,&nbsp;Swabha Swayamdipta<sup>2</sup>,&nbsp;Omer Levy<sup>1</sup>,&nbsp;Roy
+                                    Schwartz<sup>3</sup>,&nbsp;Samuel Bowman<sup>4</sup>,&nbsp;Noah A. Smith<sup>1</sup></div>
+                                <sup>1</sup>University of Washington, <sup>2</sup>Carnegie Mellon University; University of
+                                Washington, <sup>3</sup>University of Washington and The Allen Institute for Artificial
+                                Intelligence, <sup>4</sup>New York University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1027.html" target="_blank">
+                                <b>Leveraging Intra-User and Inter-User Representation Learning for Automated Hate Speech
+                                    Detection</b>
+                                <div>Jing Qian<sup>1</sup>,&nbsp;Mai ElSherief<sup>1</sup>,&nbsp;Elizabeth Belding<sup>1</sup>,&nbsp;William
+                                    Yang Wang<sup>2</sup></div>
+                                <sup>1</sup>University of California, Santa Barbara, <sup>2</sup>Unversity of California, Santa
+                                Barbara</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1032.html" target="_blank">
+                                <b>An Annotated Corpus for Machine Reading of Instructions in Wet Lab Protocols</b>
+                                <div>Chaitanya Kulkarni<sup>1</sup>,&nbsp;Wei Xu<sup>1</sup>,&nbsp;Alan Ritter<sup>2</sup>,&nbsp;Raghu
+                                    Machiraju<sup>1</sup></div>
+                                <sup>1</sup>Ohio State University, <sup>2</sup>The Ohio State University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1127.html" target="_blank">
+                                <b>A Simple and Effective Approach to the Story Cloze Test</b>
+                                <div>Siddarth Srinivasan,&nbsp;Richa Arora,&nbsp;Mark Riedl</div>
+                                Georgia Institute of Technology</a>
+                        </div>
+                        <div class="program-block">
+                            <b>NLP Lean Programming Framework: Developing NLP Applications More Effectively (DEMO)</b>
+                            <div>Marc Schreiber, Bodo Kraft and Albert Zündorf</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Pay-Per-Request Deployment of Neural Network Models Using Serverless Architectures (DEMO)</b>
+                            <div>Zhucheng Tu, Mengping Li and Jimmy Lin</div>
+                        </div>
+                        <div class="program-block">
+                            <b>An Automated Medical Scribe for Documenting Clinical Encounters (DEMO)</b>
+                            <div>Gregory Finley, Erik Edwards, Amanda Robinson, Najmeh Sadoughi, James Fone, Mark Miller, David
+                                Suendermann-Oeft, Michael Brenndoerfer and Nico Axtmann</div>
+                        </div>
+                        <div class="program-block">
+                            <b>CL Scholar: The ACL Anthology Knowledge Graph Miner (DEMO)</b>
+                            <div>Mayank Singh, Pradeep Dogga, Sohan Patro, Dhiraj Barnwal, Ritam Dutt, Rajarshi Haldar, Pawan Goyal
+                                and Animesh Mukherjee</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Atypical Inputs in Educational Applications (INDUSTRY TRACK)</b>
+                            <div>Su-Youn Yoon, Aoife Cahill, Anastassia Loukina, Klaus Zechner, Brian Riordan and Nitin Madnani</div>
+                        </div>
+                        <div class="program-block">
+                            <b>SystemX: Declarative Text Understanding for The Enterprise (INDUSTRY TRACK)</b>
+                            <div>Huaiyu Zhu, Yunyao Li, laura chiticariu, Marina Danilevsky and Frederick Reiss</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Construction of the Literature Graph in [product name redacted] (INDUSTRY TRACK)</b>
+                            <div>Waleed Ammar, Dirk Groeneveld, Chandra Bhagavatula, Matthew Peters, Kyle Lo, Iz Beltagy, Rodney
+                                Kinney, Hsu-Han Ooi, Joanna Power, Madeleine van Zuylen, Sebastian Kohlmeier, Jason Dunkelberger,
+                                Sam Skjonsberg, Chris Willhelm, Miles Crawford, Tyler Murray, Sergey Feldman, Zheng Yuan, Doug
+                                Downey and oren etzioni</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Generating User Profiles and Extractive Summaries using Attention-based Aspect Extraction (INDUSTRY
+                                TRACK)</b>
+                            <div>Avneesh Saluja, Christopher Mitcheltree and Veronica Wharton</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Document-based Recommender System for Job Postings using Dense Representations (INDUSTRY TRACK)</b>
+                            <div>Ahmed Elsafty, Martin Riedl and Chris Biemann</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11:30 - 12:30</td>
+                    <td><b>Session Oral: Machine Learning 1</b> - Empire A
+                        <div class="program-chair">Chair: Raymond Mooney </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/279.html" target="_blank">
+                                <div>11:30AM - 11:47AM</div>
+                                <b>Zero-shot Sequence Labeling: Transferring Knowledge from Sentences to Tokens</b>
+                                <div>Marek Rei<sup>1</sup> and Anders Søgaard<sup>2</sup></div>
+                                <sup>1</sup>University of Cambridge, <sup>2</sup>University of Copenhagen</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/385.html" target="_blank">
+                                <div>11:48AM - 12:05PM</div>
+                                <b>Joint Bootstrapping Machines for High Confidence Relation Extraction</b>
+                                <div>Pankaj Gupta<sup>1</sup>,&nbsp;Benjamin Roth<sup>2</sup>,&nbsp;Hinrich Schütze<sup>3</sup></div>
+                                <sup>1</sup>LMU, Siemens, <sup>2</sup>LMU Munich, <sup>3</sup>Center for Information and Language
+                                Processing, University of Munich</a>
+                        </div>
+                        <div class="program-block">
+                            <div>12:06 PM - 12:23 PM</div>
+                            <b>Learning Structured Text Representations (TACL)</b>
+                            <div>Yang Liu and Mirella Lapata</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11:30 - 12:30</td>
+                    <td><b>Session Oral: Information Extraction 2</b> - Empire B
+                        <div class="program-chair">Chair: David Chiang</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/486.html" target="_blank">
+                                <div>11:30AM - 11:47AM</div>
+                                <b>Learning beyond Datasets: Knowledge Graph Augmented Neural Networks for Natural Language
+                                    Processing</b>
+                                <div>Annervaz K M<sup>1</sup>,&nbsp;Somnath Basu Roy Chowdhury<sup>2</sup>,&nbsp;Ambedkar
+                                    Dukkipati<sup>1</sup></div>
+                                <sup>1</sup>Indian Institute of Science, <sup>2</sup>IIT Kharagpur</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/520.html" target="_blank">
+                                <div>11:48AM - 12:05PM</div>
+                                <b>Comparing Constraints for Taxonomic Organization</b>
+                                <div>Anne Cocos<sup>1</sup>,&nbsp;Marianna Apidianaki<sup>2</sup>,&nbsp;Chris
+                                    Callison-Burch<sup>1</sup></div>
+                                <sup>1</sup>University of Pennsylvania, <sup>2</sup>LIMSI-CNRS, University Paris-Saclay</a>
+                        </div>
+                        <div class="program-block">
+                            <div>12:06 PM - 12:23 PM</div>
+                            <b>Cross-Lingual Syntactic Transfer with Limited Resources (TACL)</b>
+                            <div>Mohammad Sadegh Rasooli and Michael Collins</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11:30 - 12:30</td>
+                    <td><b>Session Oral: Machine Translation</b> - Empire C
+                        <div class="program-chair">Chair: Daniel Marcu</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/78.html" target="_blank">
+                                <div>11:30AM - 11:47AM</div>
+                                <b>Improving Lexical Choice in Neural Machine Translation</b>
+                                <div>Toan Nguyen and David Chiang</div>
+                                University of Notre Dame</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/446.html" target="_blank">
+                                <div>11:48AM - 12:05PM</div>
+                                <b>Universal Neural Machine Translation for Extremely Low Resource Languages</b>
+                                <div>Jiatao Gu<sup>1</sup>,&nbsp;Hany Hassan<sup>2</sup>,&nbsp;Jacob Devlin<sup>3</sup>,&nbsp;Victor
+                                    O.K. Li<sup>4</sup></div>
+                                <sup>1</sup>Department of Electrical and Electronic Engineering, The University of Hong Kong,
+                                <sup>2</sup>Microsoft Research, <sup>3</sup>Google Research, <sup>4</sup>The University of Hong Kong</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/458.html" target="_blank">
+                                <div>12:06PM - 12:23PM</div>
+                                <b>Classical Structured Prediction Losses for Sequence to Sequence Learning</b>
+                                <div>Sergey Edunov<sup>1</sup>,&nbsp;Myle Ott<sup>2</sup>,&nbsp;Michael Auli<sup>1</sup>,&nbsp;David
+                                    Grangier<sup>2</sup>,&nbsp;Marc'Aurelio Ranzato<sup>1</sup></div>
+                                <sup>1</sup>Facebook AI Research, <sup>2</sup>Facebook</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12:30 - 14:00</td>
+                    <td><b>Lunch</b></td>
+                </tr>
+                <tr>
+                    <td>14:00 - 15:00</td>
+                    <td><b>Industry Track Keynote</b> - Empire Ballroom</td>
+                </tr>
+                <tr>
+                    <td>15:00 - 15:30</td>
+                    <td><b>Afternoon Coffee</b> - Empire Foyer</td>
+                </tr>
+                <tr>
+                    <td>15:30 - 17:00</td>
+                    <td><b>Session Oral: Machine Learning 2</b> - Empire A
+                        <div class="program-chair">Chair: TBD</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/182.html" target="_blank">
+                                <div>3:30PM - 3:47PM</div>
+                                <b>Deep Dirichlet Multinomial Regression</b>
+                                <div>Adrian Benton and Mark Dredze</div>
+                                Johns Hopkins University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1039.html" target="_blank">
+                                <div>3:48PM - 4:05PM</div>
+                                <b>Training Structured Prediction Energy Networks with Indirect Supervision</b>
+                                <div>Amirmohammad Rooshenas<sup>1</sup>,&nbsp;Aishwarya Kamath<sup>1</sup>,&nbsp;Andrew McCallum<sup>2</sup></div>
+                                <sup>1</sup>University of Massachusetts Amherst, <sup>2</sup>UMass Amherst</a>
+                        </div>
+                        <div class="program-block">
+                            <div>4:06 PM - 4:23 PM</div>
+                            <b>Anchored Correlation Explanation: Topic Modeling With Minimal Domain Knowledge (TACL)</b>
+                            <div>Ryan J. Gallagher, Kyle Reing, David Kale, Greg Ver Steeg</div>
+                        </div>
+                        <div class="program-block">
+                            <div>4:24 PM - 4:42 PM</div>
+                            <b>Aspect-augmented Adversarial Networks for Domain Adaptation (TACL)</b>
+                            <div>Yuan Zhang, Regina Barzilay, Tommi Jaakkola</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15:30 - 17:00</td>
+                    <td><b>Session Oral: Social Media and Computational Social Science 1</b> - Empire B
+                        <div class="program-chair">Chair: Margaret Mitchell</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/282.html" target="_blank">
+                                <div>3:30PM - 3:47PM</div>
+                                <b>Microblog Conversation Recommendation via Joint Modeling of Topics and Discourse</b>
+                                <div>Xingshan Zeng<sup>1</sup>,&nbsp;Jing Li<sup>2</sup>,&nbsp;Lu Wang<sup>3</sup>,&nbsp;Nicholas
+                                    Beauchamp<sup>4</sup>,&nbsp;Sarah Shugars<sup>5</sup>,&nbsp;Kam-Fai Wong<sup>6</sup></div>
+                                <sup>1</sup>The Chinese University of Hong Kong, <sup>2</sup>Tencent AI Lab, <sup>3</sup>Northeastern
+                                University, <sup>4</sup>Department of Political Science, Northeastern University, <sup>5</sup>Network
+                                Science Institute, Northeastern University, <sup>6</sup>Department of Systems Engineering and
+                                Engineering Management, The Chinese University of Hong Kong, Hong Kong</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/445.html" target="_blank">
+                                <div>3:48PM - 4:05PM</div>
+                                <b>Before Name-calling: Dynamics and Triggers of Ad Hominem Fallacies in Web Argumentation</b>
+                                <div>Ivan Habernal<sup>1</sup>,&nbsp;Henning Wachsmuth<sup>2</sup>,&nbsp;Iryna Gurevych<sup>1</sup>,&nbsp;Benno
+                                    Stein<sup>2</sup></div>
+                                <sup>1</sup>UKP Lab, Technische Universität Darmstadt, <sup>2</sup>Bauhaus-Universität Weimar</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/710.html" target="_blank">
+                                <div>4:06PM - 4:23PM</div>
+                                <b>Si O No, Que Penses? Catalonian Independence and Linguistic Identity on Social Media</b>
+                                <div>Ian Stewart<sup>1</sup>,&nbsp;Yuval Pinter<sup>2</sup>,&nbsp;Jacob Eisenstein<sup>1</sup></div>
+                                <sup>1</sup>Georgia Institute of Technology, <sup>2</sup>Georgia Tech</a>
+                        </div>
+                        <div class="program-block">
+                            <div>4:24 PM - 4:42 PM</div>
+                            <b>Multiple Instance Learning Networks for Fine-Grained Sentiment Analysis (TACL)</b>
+                            <div>Stefanos Angelidis and Mirella Lapata</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15:30 - 17:00</td>
+                    <td><b>Session Oral: Vision, Robotics and Other Grounding 1</b> - Empire C
+                        <div class="program-chair">Chair: Mirella Lapata</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/171.html" target="_blank">
+                                <div>3:30PM - 3:47PM</div>
+                                <b>Scene Graph Parsing as Dependency Parsing</b>
+                                <div>Yu-Siang Wang<sup>1</sup>,&nbsp;Chenxi Liu<sup>2</sup>,&nbsp;Xiaohui Zeng<sup>3</sup>,&nbsp;Alan
+                                    Yuille<sup>2</sup></div>
+                                <sup>1</sup>National Taiwan University, <sup>2</sup>Johns Hopkins University, <sup>3</sup>HKUST</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/225.html" target="_blank">
+                                <div>3:48PM - 4:05PM</div>
+                                <b>Learning Visually Grounded Sentence Representations</b>
+                                <div>Douwe Kiela<sup>1</sup>,&nbsp;Alexis Conneau<sup>2</sup>,&nbsp;Allan Jabri<sup>3</sup>,&nbsp;Maximilian
+                                    Nickel<sup>3</sup></div>
+                                <sup>1</sup>Facebook, <sup>2</sup>FAIR Paris/University Le Mans, <sup>3</sup>Facebook AI
+                                Research</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/260.html" target="_blank">
+                                <div>4:06PM - 4:23PM</div>
+                                <b>Comparatives, Quantifiers, Proportions: a Multi-Task Model for the Learning of Quantities from
+                                    Vision</b>
+                                <div>Sandro Pezzelle<sup>1</sup>,&nbsp;Ionut-Teodor Sorodoc<sup>2</sup>,&nbsp;Raffaella Bernardi<sup>1</sup></div>
+                                <sup>1</sup>University of Trento, <sup>2</sup>Universitat Pompeu Fabra</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/272.html" target="_blank">
+                                <div>4:24PM - 4:42PM</div>
+                                <b>Being Negative but Constructively: Lessons Learnt from Creating Better Visual Question Answering
+                                    Datasets</b>
+                                <div>Wei-Lun Chao,&nbsp;Hexiang Hu,&nbsp;Fei Sha</div>
+                                USC</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15:30 - 17:00</td>
+                    <td><b>Session Posters and Demos: Semantics</b> - Elite Hall B
+                        <div class="program-chair">Chair: Scott Wen-tau Yih</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/142.html" target="_blank">
+                                <b>attr2vec: Jointly Learning Word and Contextual Attribute Embeddings with Factorization
+                                    Machines</b>
+                                <div>Fabio Petroni<sup>1</sup>,&nbsp;Vassilis Plachouras<sup>1</sup>,&nbsp;Timothy Nugent<sup>1</sup>,&nbsp;Jochen
+                                    L. Leidner<sup>2</sup></div>
+                                <sup>1</sup>Thomson Reuters, <sup>2</sup>Thomson Reuters and University of Sheffield</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/248.html" target="_blank">
+                                <b>Abstract Meaning Representation for Paraphrase Detection</b>
+                                <div>Fuad Issa<sup>1</sup>,&nbsp;Marco Damonte<sup>1</sup>,&nbsp;Shay B. Cohen<sup>1</sup>,&nbsp;Xiaohui
+                                    Yan<sup>2</sup>,&nbsp;Yi Chang<sup>2</sup></div>
+                                <sup>1</sup>University of Edinburgh, <sup>2</sup>Huawei</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/321.html" target="_blank">
+                                <b>Can Network Embedding of Distributional Thesaurus Be Combined with Word Vectors for Better
+                                    Representation?</b>
+                                <div>Abhik Jana and Pawan Goyal</div>
+                                IIT Kharagpur</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/341.html" target="_blank">
+                                <b>Unsupervised Learning of Sentence Embeddings Using Compositional n-Gram Features</b>
+                                <div>Matteo Pagliardini<sup>1</sup>,&nbsp;Prakhar Gupta<sup>2</sup>,&nbsp;Martin
+                                    Jaggi<sup>3</sup></div>
+                                <sup>1</sup>Iprova SARL, <sup>2</sup>École polytechnique fédérale de Lausanne, <sup>3</sup>EPFL</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/342.html" target="_blank">
+                                <b>Neural Tensor Networks with Diagonal Slice Matrices</b>
+                                <div>Takahiro Ishihara<sup>1</sup>,&nbsp;Katsuhiko Hayashi<sup>2</sup>,&nbsp;Hitoshi
+                                    Manabe<sup>1</sup>,&nbsp;Masashi Shimbo<sup>3</sup>,&nbsp;Masaaki Nagata<sup>4</sup></div>
+                                <sup>1</sup>Nara Institute of Science and Technology, <sup>2</sup>NTT CS Lab, <sup>3</sup>NAIST,
+                                <sup>4</sup>+81-774-93-5235</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/382.html" target="_blank">
+                                <b>Post-Specialisation: Retrofitting Vectors of Words Unseen in Lexical Resources</b>
+                                <div>Ivan Vulić<sup>1</sup>,&nbsp;Goran Glavaš<sup>2</sup>,&nbsp;Nikola Mrkšić<sup>1</sup>,&nbsp;Anna
+                                    Korhonen<sup>1</sup></div>
+                                <sup>1</sup>University of Cambridge, <sup>2</sup>University of Mannheim</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/478.html" target="_blank">
+                                <b>Deep Neural Models of Semantic Shift</b>
+                                <div>Alex Rosenfeld<sup>1</sup> and Katrin Erk<sup>2</sup></div>
+                                <sup>1</sup>The University of Texas at Austin, <sup>2</sup>University of Texas at Austin</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/515.html" target="_blank">
+                                <b>Mining Possessions: Existence, Type and Temporal Anchors</b>
+                                <div>Dhivya Chinnappa<sup>1</sup> and Eduardo Blanco<sup>2</sup></div>
+                                <sup>1</sup>Student, <sup>2</sup>University of North Texas</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/550.html" target="_blank">
+                                <b>Distributional Inclusion Vector Embedding for Unsupervised Hypernymy Detection</b>
+                                <div>Haw-Shiuan Chang<sup>1</sup>,&nbsp;Ziyun Wang<sup>2</sup>,&nbsp;Luke Vilnis<sup>1</sup>,&nbsp;Andrew
+                                    McCallum<sup>1</sup></div>
+                                <sup>1</sup>UMass Amherst, <sup>2</sup>Tsinghua University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/15.html" target="_blank">
+                                <b>Olive Oil is Made \emph{of} Olives, Baby Oil is Made \emph{for} Babies: Interpreting Noun
+                                    Compounds Using Paraphrases in a Neural Model</b>
+                                <div>Vered Shwartz<sup>1</sup> and Chris Waterson<sup>2</sup></div>
+                                <sup>1</sup>Bar-Ilan University, <sup>2</sup>Google Inc.</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/757.html" target="_blank">
+                                <b>Frustratingly Easy Meta-Embedding -- Computing Meta-Embeddings by Averaging Source Word
+                                    Embeddings</b>
+                                <div>Joshua Coates and Danushka Bollegala</div>
+                                University of Liverpool</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/782.html" target="_blank">
+                                <b>A Transition-based Algorithm for Unrestricted AMR Parsing</b>
+                                <div>David Vilares and Carlos Gómez-Rodríguez</div>
+                                Universidade da Coruña</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/788.html" target="_blank">
+                                <b>Similarity Measures for the Detection of Clinical Conditions with Verbal Fluency Tasks</b>
+                                <div>Felipe Paula<sup>1</sup>,&nbsp;Rodrigo Wilkens<sup>2</sup>,&nbsp;Marco Idiart<sup>3</sup>,&nbsp;Aline
+                                    Villavicencio<sup>4</sup></div>
+                                <sup>1</sup>Institute of Informatics - UFRGS, <sup>2</sup>Université catholique de Louvain,
+                                <sup>3</sup>UFRGS, <sup>4</sup>University of Essex, UK</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/792.html" target="_blank">
+                                <b>Analogies in Complex Verb Meaning Shifts: the Effect of Affect in Semantic Similarity Models</b>
+                                <div>Maximilian Köper and Sabine Schulte im Walde</div>
+                                University of Stuttgart</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/806.html" target="_blank">
+                                <b>Sluice Resolution without Hand-crafted Features over Brittle Syntax Trees</b>
+                                <div>Ola Rønning<sup>1</sup>,&nbsp;Daniel Hardt<sup>2</sup>,&nbsp;Anders Søgaard<sup>1</sup></div>
+                                <sup>1</sup>University of Copenhagen, <sup>2</sup>Copenhagen Business School</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/827.html" target="_blank">
+                                <b>Transition-based Chinese AMR Parsing</b>
+                                <div>Chuan Wang<sup>1</sup>,&nbsp;Bin Li<sup>2</sup>,&nbsp;Nianwen Xue<sup>1</sup></div>
+                                <sup>1</sup>Brandeis University, <sup>2</sup>Nanjing Normal University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/882.html" target="_blank">
+                                <b>Character-based Neural Networks for Sentence Pair Modeling</b>
+                                <div>Wuwei Lan and Wei Xu</div>
+                                The Ohio State University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/924.html" target="_blank">
+                                <b>Mittens: an Extension of GloVe for Learning Domain-Specialized Representations</b>
+                                <div>Nicholas Dingwall<sup>1</sup> and Christopher Potts<sup>2</sup></div>
+                                <sup>1</sup>Roam Analytics, <sup>2</sup>Stanford University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/945.html" target="_blank">
+                                <b>Lexical Substitution for Evaluating Compositional Distributional Models</b>
+                                <div>Maja Buljan<sup>1</sup>,&nbsp;Sebastian Padó<sup>1</sup>,&nbsp;Jan Šnajder<sup>2</sup></div>
+                                <sup>1</sup>Stuttgart University, <sup>2</sup>University of Zagreb, Faculty of Electrical
+                                Engineering and Computing, Unska 3, 10000 Zagreb</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/955.html" target="_blank">
+                                <b>Introducing Two Vietnamese Datasets for Evaluating Semantic Models of (Dis-)Similarity and
+                                    Relatedness</b>
+                                <div>Kim Anh Nguyen<sup>1</sup>,&nbsp;Sabine Schulte im Walde<sup>1</sup>,&nbsp;Ngoc Thang
+                                    Vu<sup>2</sup></div>
+                                <sup>1</sup>University of Stuttgart, <sup>2</sup>University Stuttgart</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/959.html" target="_blank">
+                                <b>Discriminating between Lexico-Semantic Relations with the Specialization Tensor Model</b>
+                                <div>Goran Glavaš<sup>1</sup> and Ivan Vulić<sup>2</sup></div>
+                                <sup>1</sup>University of Mannheim, <sup>2</sup>University of Cambridge</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/960.html" target="_blank">
+                                <b>Semantic Pleonasm Detection</b>
+                                <div>Omid Kashefi,&nbsp;Andrew T. Lucas,&nbsp;Rebecca Hwa</div>
+                                University of Pittsburgh</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/966.html" target="_blank">
+                                <b>Diachronic Usage Relatedness (DURel):  A Framework for the Annotation of Lexical Semantic
+                                    Change</b>
+                                <div>Dominik Schlechtweg<sup>1</sup>,&nbsp;Sabine Schulte im Walde<sup>1</sup>,&nbsp;Stefanie Eckmann<sup>2</sup></div>
+                                <sup>1</sup>University of Stuttgart, <sup>2</sup>Ludwig-Maximilian University Munich</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/975.html" target="_blank">
+                                <b>The Word Analogy Testing Caveat</b>
+                                <div>Natalie Schluter</div>
+                                IT University of Copenhagen</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/992.html" target="_blank">
+                                <b>Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings</b>
+                                <div>Yan Song,&nbsp;Shuming Shi,&nbsp;Jing Li,&nbsp;Haisong Zhang</div>
+                                Tencent AI Lab</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1050.html" target="_blank">
+                                <b>Determining Event Durations: Models and Error Analysis</b>
+                                <div>Alakananda Vempala,&nbsp;Eduardo Blanco,&nbsp;Alexis Palmer</div>
+                                University Of North Texas</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1077.html" target="_blank">
+                                <b>Evaluating bilingual word embeddings on the long tail</b>
+                                <div>Fabienne Braune<sup>1</sup>,&nbsp;Viktor Hangya<sup>2</sup>,&nbsp;Tobias Eder<sup>3</sup>,&nbsp;Alexander
+                                    Fraser<sup>2</sup></div>
+                                <sup>1</sup>University of Stuttgart, <sup>2</sup>Ludwig-Maximilians-Universität München,
+                                <sup>3</sup>LMU Munich</a>
+                        </div>
+                        <div class="program-block">
+                            <b>Combining Abstractness and Language-specific Theoretical Indicators for Detecting Non-Literal Usage
+                                of Estonian Particle Verbs (SRW)</b>
+                            <div>Eleri Aedmaa, Maximilian Köper and Sabine Schulte im Walde</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Verb Alternations and Their Impact on Frame Induction (SRW)</b>
+                            <div>Esther Seyffarth</div>
+                        </div>
+                        <div class="program-block">
+                            <b>A Generalized Knowledge Hunting Framework for the Winograd Schema Challenge (SRW)</b>
+                            <div>Ali Emami, Adam Trischler, Kaheer Suleman and Jackie Chi Kit Cheung</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Towards qualitative word embeddings evaluation: measuring neighbors variation (SRW)</b>
+                            <div>Benedicte Pierrejean and Ludovic Tanguy</div>
+                        </div>
+                        <div class="program-block">
+                            <b>A Deeper Look into Dependency-Based Word Embeddings (SRW)</b>
+                            <div>Sean MacAvaney and Amir Zeldes</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Argumentext: Searching Arguments in Heterogeneous Sources (DEMO)</b>
+                            <div>Christian Stab, Johannes Daxenberger, Chris Stahlhut, Tristan Miller, Benjamin Schiller, Christopher
+                                Tauchmann, Steffen Eger and Iryna Gurevych</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Unsupervised Word Mapping Using Structural Similarities in Monolingual Embeddings (TACL)</b>
+                            <div>Hanan Aldarmaki, Mahesh Mohan and Mona Diab</div>
+                        </div>
+                        <div class="program-block">
+                            <b>ClaimRank: Detecting Check-Worthy Claims in Arabic and English (DEMO)</b>
+                            <div>Israa Jaradat, Pepa Gencheva, Alberto Barrón-Cedeño, Lluís Màrquez and Preslav Nakov</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15:30 - 17:00</td>
+                    <td><b>Session Posters and Demos: Sentiment Analysis</b> - Elite Hall B
+                        <div class="program-chair">Chair: Scott Wen-tau Yih</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/139.html" target="_blank">
+                                <b>Learning Domain Representation for Multi-Domain Sentiment Classification</b>
+                                <div>Qi Liu<sup>1</sup>,&nbsp;Yue Zhang<sup>2</sup>,&nbsp;Jiangming Liu<sup>3</sup></div>
+                                <sup>1</sup>Microsoft Research, <sup>2</sup>Singapore University of Technology and Design,
+                                <sup>3</sup>University of Edinburgh</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/231.html" target="_blank">
+                                <b>Relevant Emotion Ranking from Text Constrained with Emotion Relationships</b>
+                                <div>Deyu ZHOU<sup>1</sup>,&nbsp;Yang Yang<sup>1</sup>,&nbsp;Yulan He<sup>2</sup></div>
+                                <sup>1</sup>School of computer science and engineering, Southeast University, <sup>2</sup>Aston
+                                University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/423.html" target="_blank">
+                                <b>SRL4ORL: Improving Opinion Role Labeling Using Multi-Task Learning with Semantic Role
+                                    Labeling</b>
+                                <div>Ana Marasovic<sup>1</sup> and Anette Frank<sup>2</sup></div>
+                                <sup>1</sup>Department of Computational Linguistics, Heidelberg University, <sup>2</sup>Heidelberg
+                                Universiy</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/530.html" target="_blank">
+                                <b>Learning Sentence Representations over Tree Structures for Target-dependent Classification</b>
+                                <div>Junwen Duan,&nbsp;Xiao Ding,&nbsp;Ting Liu</div>
+                                Harbin Institute of Technology</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/595.html" target="_blank">
+                                <b>Solving Data Sparsity for Aspect Based Sentiment Analysis Using Cross-linguality and
+                                    Multi-linguality</b>
+                                <div>Md Shad Akhtar<sup>1</sup>,&nbsp;Palaash Sawant<sup>2</sup>,&nbsp;Sukanta Sen<sup>1</sup>,&nbsp;Asif
+                                    Ekbal<sup>1</sup>,&nbsp;Pushpak Bhattacharyya<sup>3</sup></div>
+                                <sup>1</sup>Indian Institute of Technology Patna, <sup>2</sup>Goa University, <sup>3</sup>CSE
+                                Department, IIT Bombay</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/809.html" target="_blank">
+                                <b>Letting Emotions Flow: Success Prediction by Modeling the Flow of Emotions in Books</b>
+                                <div>Suraj Maharjan<sup>1</sup>,&nbsp;Sudipta Kar<sup>1</sup>,&nbsp;Manuel Montes<sup>2</sup>,&nbsp;Fabio
+                                    A. Gonzalez<sup>3</sup>,&nbsp;Thamar Solorio<sup>4</sup></div>
+                                <sup>1</sup>University of Houston, <sup>2</sup>INAOE, <sup>3</sup>Universidad Nacional de Colombia,
+                                <sup>4</sup>UH</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/813.html" target="_blank">
+                                <b>Modeling Inter-Aspect Dependencies for Aspect-Based Sentiment Analysis</b>
+                                <div>Devamanyu Hazarika<sup>1</sup>,&nbsp;Soujanya Poria<sup>2</sup>,&nbsp;Prateek Vij<sup>3</sup>,&nbsp;Gangeshwar
+                                    Krishnamurthy<sup>4</sup>,&nbsp;Erik Cambria<sup>2</sup>,&nbsp;Roger Zimmermann<sup>1</sup></div>
+                                <sup>1</sup>National University of Singapore, <sup>2</sup>Nanyang Technological University,
+                                <sup>3</sup>Indian Institute of Technology Guwahati, <sup>4</sup>A*STAR Artificial Intelligence
+                                Initiative, IHPC, A*STAR</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/828.html" target="_blank">
+                                <b>Recurrent Entity Networks with Delayed Memory Update for Targeted Aspect-based Sentiment
+                                    Analysis</b>
+                                <div>Fei Liu<sup>1</sup>,&nbsp;Trevor Cohn<sup>2</sup>,&nbsp;Timothy Baldwin<sup>1</sup></div>
+                                <sup>1</sup>The University of Melbourne, <sup>2</sup>University of Melbourne</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1097.html" target="_blank">
+                                <b>Multi-task Learning Framework for Mining Crowd Intelligence towards Clinical Treatment</b>
+                                <div>Shweta Yadav<sup>1</sup>,&nbsp;Asif Ekbal<sup>1</sup>,&nbsp;Sriparna Saha<sup>1</sup>,&nbsp;Pushpak
+                                    Bhattacharyya<sup>2</sup>,&nbsp;Amit Sheth<sup>3</sup></div>
+                                <sup>1</sup>Indian Institute of Technology Patna, <sup>2</sup>CSE Department, IIT Bombay,
+                                <sup>3</sup>Wright State University, Ohio</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/1105.html" target="_blank">
+                                <b>Knowledge-enriched Two-layered Attention Network for Sentiment Analysis</b>
+                                <div>Abhishek Kumar<sup>1</sup>,&nbsp;Daisuke Kawahara<sup>2</sup>,&nbsp;Sadao Kurohashi<sup>2</sup></div>
+                                <sup>1</sup>Indian Institute of Technology, Patna, <sup>2</sup>Kyoto University</a>
+                        </div>
+                        <div class="program-block">
+                            <b>360° Stance Detection (DEMO)</b>
+                            <div>Sebastian Ruder, John Glover, Afshin Mehrabani and Parsa Ghaffari</div>
+                        </div>
+                        <div class="program-block">
+                            <b>DebugSL: An Interactive Tool for Debugging Sentiment Lexicons (DEMO)</b>
+                            <div>Andrew Schneider, John Male, Saroja Bhogadhi and Eduard Dragut</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Entity-oriented polarity detection in business news (INDUSTRY TRACK)</b>
+                            <div>Lidia Pivovarova and Roman Yangarber</div>
+                        </div>
+                        <div class="program-block">
+                            <b>Learning Word Embeddings for Data Sparse and Sentiment Rich Data Sets (SRW)</b>
+                            <div>Prathusha Kameswara Sarma</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17:00 - 18:30</td>
+                    <td><b>Session Oral: NLP Applications</b> - Empire A
+                        <div class="program-chair">Chair: TBD</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/415.html" target="_blank">
+                                <div>5:00PM - 5:17PM</div>
+                                <b>Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task</b>
+                                <div>Marcin Junczys-Dowmunt<sup>1</sup>,&nbsp;Roman Grundkiewicz<sup>2</sup>,&nbsp;Shubha
+                                    Guha<sup>2</sup>,&nbsp;Kenneth Heafield<sup>2</sup></div>
+                                <sup>1</sup>Microsoft Research, <sup>2</sup>University of Edinburgh</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/498.html" target="_blank">
+                                <div>5:18PM - 5:35PM</div>
+                                <b>Robust Cross-lingual Hypernymy Detection Using Dependency Context</b>
+                                <div>Shyam Upadhyay<sup>1</sup>,&nbsp;Yogarshi Vyas<sup>2</sup>,&nbsp;Marine Carpuat<sup>2</sup>,&nbsp;Dan
+                                    Roth<sup>3</sup></div>
+                                <sup>1</sup>University of Pennsylvania, <sup>2</sup>University of Maryland, <sup>3</sup>University
+                                of Illinois</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/609.html" target="_blank">
+                                <div>5:36PM - 5:53PM</div>
+                                <b>Noising and Denoising Natural Language: Diverse Backtranslation for Grammar Correction</b>
+                                <div>Ziang Xie<sup>1</sup>,&nbsp;Guillaume Genthial<sup>2</sup>,&nbsp;Stanley Xie<sup>1</sup>,&nbsp;Andrew
+                                    Ng<sup>1</sup>,&nbsp;Dan Jurafsky<sup>2</sup></div>
+                                <sup>1</sup>Stanford, <sup>2</sup>Stanford University</a>
+                        </div>
+                        <div class="program-block">
+                            <div>5:54 PM - 6:12 PM</div>
+                            <b>Towards Evaluating Narrative Quality In Student Writing (TACL)</b>
+                            <div>Swapna Somasundaran, Michael Flor, Martin Chodorow, Hillary Molloy, Binod Gyawali and Laura
+                                McCulla</div>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/980.html" target="_blank">
+                                <div>6:13PM - 6:30PM</div>
+                                <b>Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation</b>
+                                <div>Roman Grundkiewicz<sup>1</sup> and Marcin Junczys-Dowmunt<sup>2</sup></div>
+                                <sup>1</sup>School of Informatics, University of Edinburgh, <sup>2</sup>Microsoft Research</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17:00 - 18:30</td>
+                    <td><b>Session Oral: Question Answering</b> - Empire B
+                        <div class="program-chair">Chair: Eugene Agichtein</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/18.html" target="_blank">
+                                <div>5:00PM - 5:17PM</div>
+                                <b>Self-Training for Jointly Learning to Ask and Answer Questions</b>
+                                <div>Mrinmaya Sachan and Eric Xing</div>
+                                Carnegie Mellon University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/51.html" target="_blank">
+                                <div>5:18PM - 5:35PM</div>
+                                <b>The Web as a Knowledge-base for Answering Complex Questions</b>
+                                <div>Alon Talmor and Jonathan Berant</div>
+                                Tel Aviv University</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/116.html" target="_blank">
+                                <div>5:36PM - 5:53PM</div>
+                                <b>A Meaning-based Statistical English Math Word Problem Solver</b>
+                                <div>Chao-Chun Liang,&nbsp;Yu-Shiang Wong,&nbsp;Yi-Chung Lin,&nbsp;Keh-Yih Su</div>
+                                Institute of Information Science, Academia Sinica</a>
+                        </div>
+                        <div class="program-block">
+                            <a href="https://www.softconf.com/naacl2018/papers/pub/accepted/82.html" target="_blank">
+                                <div>5:54PM - 6:12PM</div>
+                                <b>Strong Baselines for Simple Question Answering over Knowledge Graphs with and without Neural
+                                    Networks</b>
+                                <div>Salman Mohammed,&nbsp;Peng Shi,&nbsp;Jimmy Lin</div>
+                                University of Waterloo</a>
+                        </div>
+                        <div class="program-block">
+                            <div>6:13 PM - 6:30 PM</div>
+                            <b>Questionable Answers in Question Answering Research: Reproducibility and Variability of Published
+                                Results (TACL)</b>
+                            <div>Matt Crane</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17:00 - 18:30</td>
+                    <td><b>Session Oral: SRW highlight papers</b> - Empire C
+                        <div class="program-chair">Chair: Umashanthi Pavalanathan </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;">
+                        <div class="program-block">
+                            <div>5:00 PM - 5:14 PM</div>
+                            <b>Igbo Diacritic Restoration using Embedding Models</b>
+                            <div>Ignatius Ezeani, Mark Hepple, Ikechukwu Onyenwe and Enemouh Chioma</div>
+                        </div>
+                        <div class="program-block">
+                            <div>5:15 PM - 5:29 PM</div>
+                            <b>Using Classifier Features to Determine Language Transfer on Morphemes</b>
+                            <div>Alexandra Lavrentovich</div>
+                        </div>
+                        <div class="program-block">
+                            <div>5:30 PM - 5:44 PM</div>
+                            <b>End-to-End Learning of Task-Oriented Dialogs</b>
+                            <div>Bing Liu and Ian Lane</div>
+                        </div>
+                        <div class="program-block">
+                            <div>5:45 PM - 5:59 PM</div>
+                            <b>Towards generating personalized hospitalization summaries</b>
+                            <div>Sabita Acharya, Barbara Di Eugenio, Andrew Boyd, Richard Cameron, Karen Dunn Lopez, Pamela
+                                Martyn-Nemeth, Carolyn Dickens and Amer Ardati</div>
+                        </div>
+                        <div class="program-block">
+                            <div>6:00 PM - 6:14 PM</div>
+                            <b>A Generalized Knowledge Hunting Framework for the Winograd Schema Challenge</b>
+                            <div>Ali Emami, Adam Trischler, Kaheer Suleman and Jackie Chi Kit Cheung</div>
+                        </div>
+                        <div class="program-block">
+                            <div>6:15 PM - 6:30 PM</div>
+                            <b>Alignment, Acceptance, and Rejection of Group Identities in Online Political Discourse</b>
+                            <div>Hagyeong Shin and Gabriel Doyle</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border-top: 0; padding: 0 15px;"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>
