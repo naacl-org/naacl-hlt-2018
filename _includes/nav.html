@@ -4,11 +4,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item {% if page.path == 'naacl-hlt-2018/' or page.path == 'naacl-hlt-2018/index.html' %}active{% endif %}">
+            <li class="nav-item {% if page.path == '' or page.path == 'index.html' %}active{% endif %}">
                 <a class="nav-link" href="{{ site.baseurl }}/">Welcome</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {% if page.path == 'naacl-hlt-2018/registration.html' %}active{% endif %}" href="/registration.html">Registration</a>
+                <a class="nav-link {% if page.path == 'registration.html' %}active{% endif %}" href="{{ site.baseurl }}/registration.html">Registration</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://naacl2018.wordpress.com/2018/01/19/onsite-childcare/" target="_blank">ChildCare</a>
@@ -66,10 +66,10 @@
                 <!--<a class="nav-link {% if page.path == 'venue.html' %}active{% endif %}" href="/venue.html">Venue</a>-->
             <!--</li>-->
             <li class="nav-item">
-                <a class="nav-link {% if page.path == 'naacl-hlt-2018/sponsor.html' %}active{% endif %}" href="/sponsor.html">Sponsors</a>
+                <a class="nav-link {% if page.path == 'sponsor.html' %}active{% endif %}" href="{{ site.baseurl }}/sponsor.html">Sponsors</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {% if page.path == 'naacl-hlt-2018/organization.html' %}active{% endif %}" href="/organization.html">Organization</a>
+                <a class="nav-link {% if page.path == 'organization.html' %}active{% endif %}" href="{{ site.baseurl }}/organization.html">Organization</a>
             </li>
         </ul>
     </div>
