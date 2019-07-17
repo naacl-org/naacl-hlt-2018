@@ -20,7 +20,7 @@ title: NAACL HLT 2018
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://naacl2018.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://naacl.org/naacl-hlt-2018/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 permalink: /:categories/:year/:month/:day/:title.html
